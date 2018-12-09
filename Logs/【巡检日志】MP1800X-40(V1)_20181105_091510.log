@@ -1,0 +1,2420 @@
+
+router#show version
+               MyPower (R) Operating System Software
+MP1800X-40(V1) system image file (flash0: /flash/rp37-7.3.1.40(R).pck), version 7.3.1.40(R)(integrity), Compiled on Oct 20 2017, 15:07:08
+Copyright (C) 2015 Maipu Communication Technology Co.,Ltd.All Rights Reserved.
+
+MP1800X-40(V1) Version Information
+	System ID           : 00017a214bc3
+	Hardware Model	    : MP1800X-40(V1) with 512 MBytes SDRAM, 128 MBytes flash
+	Hardware Version    : 002(Hotswap Unsupported)
+	Bootloader Version  : 1.46
+	Software Version    : 7.3.1.40(R)(integrity)
+	Software Image File : flash0: /flash/rp37-7.3.1.40(R).pck
+	Compiled      	    : Oct 20 2017, 15:07:08 
+
+System Uptime is 3 weeks 4 days
+
+router#more off
+router#show version detail
+               MyPower (R) Operating System Software
+MP1800X-40(V1) system image file (flash0: /flash/rp37-7.3.1.40(R).pck), version 7.3.1.40(R)(integrity), Compiled on Oct 20 2017, 15:07:08
+Copyright (C) 2015 Maipu Communication Technology Co.,Ltd.All Rights Reserved.
+
+MP1800X-40(V1) Version Information
+	System ID           : 00017a214bc3
+	Hardware Model	    : MP1800X-40(V1) with 512 MBytes SDRAM, 128 MBytes flash
+	Hardware Version    : 002(Hotswap Unsupported)
+	Bootloader Version  : 1.46
+	Software Version    : 7.3.1.40(R)(integrity)
+	Software Image File : flash0: /flash/rp37-7.3.1.40(R).pck
+	Compiled      	    : Oct 20 2017, 15:07:08 
+
+	Hardware Module Version Information
+		Device Name : MP1800X-40(V1)
+		Device Type : 0x78d
+		Device ID : 00017a214bc3
+		Device Vender ID : 1
+		Main Board Name : MP1800X-40(V1)
+		Main Board Type : 0xfff00001
+		Main Board Version : 002(Hotswap Unsupported)
+		Main Board SDRAM size : 512M
+		Main Board FLASH size : 128M
+
+	Driver Module Version Information
+		BSP version : 1.0
+		BSP API version : 1.0
+		BSP CBB version : 1.0
+		Bootloader version : 1.46
+		HAM version : 2.0
+		ModemControl version : 4.4
+		sspSwEth version :1.0
+
+	Link Layer Module Version Information
+		Bridge version : 5.0
+		CHDLC version : 3.5
+		FrameRelay version : 9.0
+		L2TP version : 1.3
+		L2TPV3 version : 1.0
+		LLDP version : 2.0.1
+		Multilink FrameRelay version : 2.0
+		PPP version : 18.1
+		PPPoE Version 2.0
+		VPDN version : 1.1
+
+	Network/Transfter Layer Module Version Information
+		Comm-List  version : 2.0
+		DDR version : 8.6
+		Flow version : 1.3
+		IP-POOL Version : 2.0
+		IPACCO version : 2.0 
+		IPSec version : 2.93
+		MEF version : 2.0
+		MFS version : 1.12
+		MPLS version : 1.1
+		Multilink version : 3.0
+		NAT version : 4.1.0
+		NAT-ALG version: 1.0.0
+		NAT64 version : 1.0.0
+		NATPT version : 1.0
+		Ndsp version : 2.13
+		POLICY_ROUTE Version: 2.0
+		Prefix-List  version : 2.1
+		ROUTE version : 3.3.2
+		RTR_MODULE version : 2.2
+		STATIC_ARP Version: 1.0
+		STATIC_ROUTE Version: 5.1
+		STATIC_ND6 version: 1.0.0
+		TCP/IP version : 1.3.1
+		VRF version: 2.1.3
+		xSTP   version 3.0
+
+	Application Layer Module Version Information
+		ACL version : 2.00 
+		Backup version : 4.1
+		BGP version : 1.0
+		TR069 Agent Version : 1.0
+		DHCP6C version : 1.0
+		DHCP6 version : 1.0
+		DHCPC version : 1.2
+		DHCP version : 3.15
+		DNS version : 1.4
+		DNS64 version : 1.0.0
+		EEP version : 1.0
+		FMM version : 1.0
+		Ftpd version : 2.1
+		FW version : 3.00 
+		WEB server version : 1.0
+		IGMP version : 3.0
+		IKE version : 3.66
+		Infoguide version : 1.1
+		AsPath List version : 1.3
+		IPFIX version : 1.0
+		IRMP version : 1.0
+		ISIS version : 2.0
+		Keychain version : 1.0
+		LDP version: 1
+		IGMP version : 2.0
+		Syslog version : 1.1
+		MPLS-OAM version: 1
+		MSDP version : 1.0
+		MVPN version : 1.04
+		NBFD MAgent version : 1.0
+		NBFD version : 1.0
+		Notify version : 2.0
+		NTP version : 1.0
+		OSPF version : 1.0
+		OSPFv3 version : 1.0
+		PIM-DM version : 1.0
+		PIM version : 1.94
+		PIM6 version : 1.94
+		PKI version : 2.15
+		RIP version : 1.0
+		RIPng version : 1.0
+		RMON Version : 1.1
+		RSVPD version : 1.0
+		ROUTEMAP version : 1.2
+		Remote-Ping version : 1.0.2
+		SHELL Version : 16.1
+		SNMP Version : 1.10
+		Telnet version : 1.2
+		Tftp version : 2.1
+		Time zone version: 1.0
+		Tool version : 1.5
+		TRACK version : v1.0
+		TimeRange version : 2.00 
+		VBRP version : 1.13
+		VRRP version : 1.13
+		VRRP version : 3.00
+		aclFW version : 2.01 
+
+	Card Version Information
+
+System Uptime is 3 weeks 4 days
+
+router#show running-config
+Building Configuration...done
+
+! Current configuration : 1370 bytes
+!
+! Last configuration change at UTC Fri Nov 02 08:23:14 2018
+! Flash config last updated at UTC Thu Oct 18 11:35:32 2018
+! Configuration version 0.1
+!
+
+!software version 7.3.1.40(R)(integrity)
+!software image file flash0: /flash/rp37-7.3.1.40(R).pck
+!compiled on Oct 20 2017, 15:07:08
+
+hostname router
+            
+
+enable password d2f3 encrypt
+
+
+user a password 7 c898
+
+cardreset-exception reboot enable
+
+ip load-sharing per-destination
+ipv6 load-sharing per-destination
+
+
+
+
+
+vlan 1
+ exit
+
+
+
+
+!slot_0_1_5GE
+interface gigabitethernet0/0
+ exit
+interface gigabitethernet0/1
+ exit
+interface gigabitethernet0/2
+ exit
+interface gigabitethernet0/3
+ exit
+interface gigabitethernet0/4
+ exit
+!end
+
+
+
+ 		                
+
+interface vlan1
+ ip address 192.168.111.105 255.255.255.0
+ exit
+
+!slot_0_2_4G
+
+interface fastcellular1
+ dialer config apn ctlte
+ dialer config username card password 7 65e9c286fc
+ dialer config authtype chap
+ dialer config ipfamily ipv4
+ shutdown
+ dialer mode auto
+ ip address dhcp
+ exit
+
+!end
+
+
+interface null0
+ exit
+
+                                     
+logging filter include fastcellular1
+
+
+
+
+
+crypto ca identity WIN-CA
+ enrollment url 166.51.2.1/certsrv
+ ca type windows
+ exit
+
+crypto ca identity CMSV3
+ exit
+
+crypto ca identity maipu
+ enrollment url 192.168.100.202/scep/pkiclient.exe
+ exit
+
+
+line vty 0 4
+ exec-timeout 1 0
+ no login
+ exit
+
+!end 
+
+
+router#show history
+Shell command history in ram file system:
+
+
+Oct/10/2018 08:59:45 (tty0) enable (First command)
+Oct/10/2018 08:59:46 (tty0) configure terminal 
+Oct/10/2018 08:59:49 (tty0) interface fastcellular1 
+Oct/10/2018 08:59:56 (tty0) ip address dhcp 
+Oct/10/2018 09:00:00 (tty0) do show run int f1 
+Oct/10/2018 09:00:20 (tty0) dialer config apn ctlte 
+Oct/10/2018 09:00:25 (tty0) end 
+Oct/10/2018 09:00:26 (tty0) show running-config 
+Oct/10/2018 09:00:34 (tty0) show ip int brief 
+Oct/10/2018 09:00:36 (tty0) show ip int brief 
+Oct/10/2018 09:00:36 (tty0) show ip int brief 
+Oct/10/2018 09:00:37 (tty0) show ip int brief 
+Oct/10/2018 09:00:37 (tty0) show ip int brief 
+Oct/10/2018 09:00:37 (tty0) show ip int brief 
+Oct/10/2018 09:01:01 (tty0) show fastcellular 1 phyinfo all 
+Oct/10/2018 09:03:01 (tty0) show fastcellular 1 dialer condition 
+Oct/10/2018 09:03:12 (tty0) configure terminal 
+Oct/10/2018 09:03:15 (tty0) interface fastcellular1 
+Oct/10/2018 09:03:16 (tty0) shutdown 
+Oct/10/2018 09:03:19 (tty0) no shutdown 
+Oct/10/2018 09:03:25 (tty0) do ter mon 
+Oct/10/2018 09:03:29 (tty0) end 
+Oct/10/2018 09:03:40 (tty0) configure terminal 
+Oct/10/2018 09:03:42 (tty0) interface fastcellular1 
+Oct/10/2018 09:03:47 (tty0) dialer mode auto 
+Oct/10/2018 09:03:50 (tty0) end 
+Oct/10/2018 09:04:56 (tty0) modemcard_debug 1 show ndis_info 
+Oct/10/2018 09:05:22 (tty0) configure terminal 
+Oct/10/2018 09:05:24 (tty0) interface fastcellular1 
+Oct/10/2018 09:05:25 (tty0) shutdown 
+Oct/10/2018 09:05:28 (tty0) end 
+Oct/10/2018 09:05:33 (tty0) modemcard_debug 1 show ndis_info 
+Oct/10/2018 09:05:49 (tty0) modemcard_debug 1 show ndis_info 
+Oct/10/2018 09:05:59 (tty0) modemcard_debug 1 show nvdata 
+Oct/10/2018 09:07:36 (tty0) modemcard_debug 1 show statistics 
+Oct/10/2018 09:07:47 (tty0) modemcard_debug 1 show dial_cfg_info 
+Oct/10/2018 09:07:57 (tty0) modemcard_debug 1 show hardware_info 
+Oct/10/2018 09:09:13 (tty0) modemcard_debug 1 ndis disconnect 
+Oct/10/2018 09:09:22 (tty0) modemcard_debug 1 ndis connect 
+Oct/10/2018 09:09:35 (tty0) modemcard_debug 1 ndis get_status 
+Oct/10/2018 09:10:03 (tty0) modemcard_debug 1 show ndis_info 
+Oct/10/2018 09:10:12 (tty0) configure terminal 
+Oct/10/2018 09:10:13 (tty0) interface fastcellular1 
+Oct/10/2018 09:10:15 (tty0) no shutdown 
+Oct/10/2018 09:10:22 (tty0) end 
+Oct/10/2018 09:10:25 (tty0) modemcard_debug 1 ndis get_status 
+Oct/10/2018 09:10:37 (tty0) modemcard_debug 1 show dial_cfg_info 
+Oct/10/2018 09:10:47 (tty0) modemcard_debug 1 show ndis_info 
+Oct/10/2018 09:10:53 (tty0) modemcard_debug 1 show ndis_info 
+Oct/10/2018 09:10:57 (tty0) modemcard_debug 1 show ndis_info 
+Oct/10/2018 09:11:00 (tty0) modemcard_debug 1 show ndis_info 
+Oct/10/2018 09:11:02 (tty0) modemcard_debug 1 show ndis_info 
+Oct/18/2018 11:35:06 (tty0) enable 
+Oct/18/2018 11:35:09 (tty0) show ip int brief 
+Oct/18/2018 11:35:11 (tty0) configure terminal 
+Oct/18/2018 11:35:16 (tty0) interface vlan1 
+Oct/18/2018 11:35:21 (tty0) ip address 192.168.111.105 24 
+Oct/18/2018 11:35:22 (tty0) end 
+Oct/18/2018 11:35:23 (tty0) configure terminal 
+Oct/18/2018 11:35:28 (tty0) enable password *** 
+Oct/18/2018 11:35:29 (tty0) exit 
+Oct/18/2018 11:35:32 (tty0) write 
+Oct/18/2018 11:35:32 (tty0) y
+Oct/18/2018 11:35:35 (vty0)[192.168.111.3] enable 
+Oct/18/2018 11:36:36 (vty1)[192.168.111.3] enable 
+Oct/18/2018 11:36:37 (vty1)[192.168.111.3] more off 
+Oct/18/2018 11:36:40 (vty1)[192.168.111.3] show version 
+Oct/18/2018 11:36:41 (vty1)[192.168.111.3] more on 
+Oct/19/2018 05:57:38 (vty0)[192.168.111.3] enable 
+Oct/19/2018 05:57:41 (vty0)[192.168.111.3] show fastcellular 1 phyinfo all 
+Oct/23/2018 00:22:29 (vty0)[192.168.111.3] enable 
+Oct/23/2018 00:22:52 (vty0)[192.168.111.3] enable 
+Oct/23/2018 00:22:52 (vty0)[192.168.111.3] show version 
+Oct/23/2018 00:24:34 (vty0)[192.168.111.3] enable 
+Oct/23/2018 00:24:34 (vty0)[192.168.111.3] show version 
+Oct/23/2018 01:13:03 (vty0)[192.168.111.3] enable 
+Oct/23/2018 01:13:04 (vty0)[192.168.111.3] show version 
+Oct/23/2018 01:20:19 (vty0)[192.168.111.3] enable 
+Oct/23/2018 01:20:19 (vty0)[192.168.111.3] show version 
+Oct/23/2018 01:20:56 (vty0)[192.168.111.3] enable 
+Oct/23/2018 01:20:57 (vty0)[192.168.111.3] show version 
+Oct/23/2018 01:21:41 (vty0)[192.168.111.3] enable 
+Oct/23/2018 01:21:41 (vty0)[192.168.111.3] show version 
+Oct/23/2018 03:37:20 (vty0)[192.168.111.3] enable 
+Oct/23/2018 03:37:45 (vty0)[192.168.111.3] enable 
+Oct/23/2018 03:38:31 (vty0)[192.168.111.3] enable 
+Oct/23/2018 03:38:40 (vty0)[192.168.111.3] enable 
+Oct/23/2018 03:39:10 (vty0)[192.168.111.3] enable 
+Oct/23/2018 05:42:28 (vty0)[192.168.111.3] enable 
+Oct/23/2018 05:42:40 (vty0)[192.168.111.3] enable 
+Oct/23/2018 05:42:40 (vty0)[192.168.111.3] show running-config 
+Oct/23/2018 05:44:25 (vty0)[192.168.111.3] enable 
+Oct/23/2018 05:44:28 (vty0)[192.168.111.3] show version 
+Oct/23/2018 05:55:38 (vty0)[192.168.111.3] enable 
+Oct/23/2018 05:55:38 (vty0)[192.168.111.3] show version 
+Oct/23/2018 05:55:39 (vty0)[192.168.111.3] more off 
+Oct/23/2018 05:55:40 (vty0)[192.168.111.3] show version detail 
+Oct/23/2018 05:55:41 (vty0)[192.168.111.3] show running-config 
+Oct/23/2018 05:56:50 (vty0)[192.168.111.3] enable 
+Oct/23/2018 05:56:50 (vty0)[192.168.111.3] show version 
+Oct/23/2018 05:56:51 (vty0)[192.168.111.3] more off 
+Oct/23/2018 05:56:52 (vty0)[192.168.111.3] show version detail 
+Oct/23/2018 05:56:53 (vty0)[192.168.111.3] show running-config 
+Oct/23/2018 07:33:50 (vty0)[192.168.111.3] enable 
+Oct/23/2018 07:33:50 (vty0)[192.168.111.3] show version 
+Oct/23/2018 07:33:51 (vty0)[192.168.111.3] more off 
+Oct/23/2018 07:33:52 (vty0)[192.168.111.3] show version detail 
+Oct/23/2018 07:33:53 (vty0)[192.168.111.3] show running-config 
+Oct/23/2018 07:48:42 (vty0)[192.168.111.3] enable 
+Oct/23/2018 07:48:42 (vty0)[192.168.111.3] show version 
+Oct/23/2018 07:48:43 (vty0)[192.168.111.3] more off 
+Oct/23/2018 07:48:44 (vty0)[192.168.111.3] show version detail 
+Oct/23/2018 07:48:45 (vty0)[192.168.111.3] show running-config 
+Oct/23/2018 07:48:46 (vty0)[192.168.111.3] show history 
+Oct/23/2018 07:48:47 (vty0)[192.168.111.3] show clock 
+Oct/23/2018 07:48:48 (vty0)[192.168.111.3] show environment 
+Oct/23/2018 07:48:49 (vty0)[192.168.111.3] show system module brief 
+Oct/23/2018 07:48:50 (vty0)[192.168.111.3] show system mpu 
+Oct/23/2018 07:48:53 (vty0)[192.168.111.3] show system power 
+Oct/23/2018 07:48:54 (vty0)[192.168.111.3] show ham mpu 
+Oct/23/2018 07:48:55 (vty0)[192.168.111.3] show logging buffer 
+Oct/23/2018 07:53:11 (vty0)[192.168.111.3] enable 
+Oct/23/2018 07:53:11 (vty0)[192.168.111.3] show version 
+Oct/23/2018 07:53:12 (vty0)[192.168.111.3] more off 
+Oct/23/2018 07:53:13 (vty0)[192.168.111.3] show version detail 
+Oct/23/2018 07:53:14 (vty0)[192.168.111.3] show running-config 
+Oct/23/2018 07:53:15 (vty0)[192.168.111.3] show history 
+Oct/23/2018 07:53:16 (vty0)[192.168.111.3] show clock 
+Oct/23/2018 07:53:17 (vty0)[192.168.111.3] show environment 
+Oct/23/2018 07:53:18 (vty0)[192.168.111.3] show system module brief 
+Oct/23/2018 07:53:19 (vty0)[192.168.111.3] show system mpu 
+Oct/23/2018 07:53:22 (vty0)[192.168.111.3] show system power 
+Oct/23/2018 07:53:23 (vty0)[192.168.111.3] show ham mpu 
+Oct/23/2018 07:53:24 (vty0)[192.168.111.3] show logging buffer 
+Oct/23/2018 07:58:13 (vty0)[192.168.111.3] enable 
+Oct/23/2018 07:58:16 (vty0)[192.168.111.3] show logging buffer 
+Oct/23/2018 08:00:02 (vty1)[192.168.111.3] enable 
+Oct/23/2018 08:00:02 (vty1)[192.168.111.3] show version 
+Oct/23/2018 08:00:05 (vty1)[192.168.111.3] more off 
+Oct/23/2018 08:00:08 (vty1)[192.168.111.3] show version detail 
+Oct/23/2018 08:00:11 (vty1)[192.168.111.3] show running-config 
+Oct/23/2018 08:00:14 (vty1)[192.168.111.3] show history 
+Oct/23/2018 08:00:17 (vty1)[192.168.111.3] show clock 
+Oct/23/2018 08:00:20 (vty1)[192.168.111.3] show environment 
+Oct/23/2018 08:00:23 (vty1)[192.168.111.3] show system module brief 
+Oct/23/2018 08:00:26 (vty1)[192.168.111.3] show system mpu 
+Oct/23/2018 08:00:35 (vty1)[192.168.111.3] show system power 
+Oct/23/2018 08:00:38 (vty1)[192.168.111.3] show ham mpu 
+Oct/23/2018 08:00:41 (vty1)[192.168.111.3] show logging buffer 
+Oct/23/2018 08:28:52 (vty0)[192.168.111.3] enable 
+Oct/23/2018 08:28:52 (vty0)[192.168.111.3] show version 
+Oct/23/2018 08:28:52 (vty0)[192.168.111.3] more off 
+Oct/23/2018 08:28:53 (vty0)[192.168.111.3] show version detail 
+Oct/23/2018 08:28:53 (vty0)[192.168.111.3] show running-config 
+Oct/23/2018 08:28:54 (vty0)[192.168.111.3] show history 
+Oct/23/2018 08:28:54 (vty0)[192.168.111.3] show clock 
+Oct/23/2018 08:28:55 (vty0)[192.168.111.3] show environment 
+Oct/23/2018 08:28:55 (vty0)[192.168.111.3] show system module brief 
+Oct/23/2018 08:28:56 (vty0)[192.168.111.3] show system mpu 
+Oct/23/2018 08:28:57 (vty0)[192.168.111.3] show system power 
+Oct/23/2018 08:28:58 (vty0)[192.168.111.3] show ham mpu 
+Oct/23/2018 08:28:58 (vty0)[192.168.111.3] show logging buffer 
+Oct/23/2018 08:29:33 (vty0)[192.168.111.3] show memory 
+Oct/23/2018 08:29:33 (vty0)[192.168.111.3] show pool information 
+Oct/23/2018 08:29:33 (vty0)[192.168.111.3] show netbuffer 
+Oct/23/2018 08:29:33 (vty0)[192.168.111.3] show process 
+Oct/23/2018 08:29:34 (vty0)[192.168.111.3] show stack 
+Oct/23/2018 08:29:34 (vty0)[192.168.111.3] show semaphore binary pended detail 
+Oct/23/2018 08:29:35 (vty0)[192.168.111.3] show semaphore mutex pended detail 
+Oct/23/2018 08:29:35 (vty0)[192.168.111.3] show cpuguard 
+Oct/23/2018 08:29:35 (vty0)[192.168.111.3] show file descriptor 
+Oct/23/2018 08:29:35 (vty0)[192.168.111.3] show fpss loadbalance 
+Oct/23/2018 08:29:35 (vty0)[192.168.111.3] monitor cpu 
+Oct/23/2018 08:29:35 (vty0)[192.168.111.3] show cpu monitor 
+Oct/23/2018 08:29:35 (vty0)[192.168.111.3] show cpu 
+Oct/23/2018 08:29:35 (vty0)[192.168.111.3] show ip sockets detail 
+Oct/23/2018 08:29:35 (vty0)[192.168.111.3] show ip interface brief 
+Oct/23/2018 08:29:35 (vty0)[192.168.111.3] show interface 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show arp queue 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip statistics 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip icmpstat 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show vrrp brief 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show vrrp 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show bfd session 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show keepalive gateway 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip mef summary 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip cache flow statistics 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show nsm error-statistic 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show nsm route statistics 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show arp 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip route 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip route statistic 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip route statistic all 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show mpls forwarding-table statistics record 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip rip 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip ospf neighbor 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show isis neighbors 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip irmp neighbor 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip bgp summary 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show ip bgp vpnv4 all summary 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show mpls ldp adjacency 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show mpls ldp session 
+Oct/23/2018 08:29:36 (vty0)[192.168.111.3] show startup-config 
+Oct/23/2018 12:13:37 (vty0)[192.168.111.3] enable 
+Oct/23/2018 12:13:37 (vty0)[192.168.111.3] show version 
+Oct/23/2018 12:13:37 (vty0)[192.168.111.3] more off 
+Oct/23/2018 12:13:38 (vty0)[192.168.111.3] show version detail 
+Oct/23/2018 12:13:38 (vty0)[192.168.111.3] show running-config 
+Oct/23/2018 12:13:39 (vty0)[192.168.111.3] show history 
+Oct/23/2018 12:13:39 (vty0)[192.168.111.3] show clock 
+Oct/23/2018 12:13:40 (vty0)[192.168.111.3] show environment 
+Oct/23/2018 12:13:40 (vty0)[192.168.111.3] show system module brief 
+Oct/23/2018 12:13:41 (vty0)[192.168.111.3] show system mpu 
+Oct/23/2018 12:13:42 (vty0)[192.168.111.3] show system power 
+Oct/23/2018 12:13:43 (vty0)[192.168.111.3] show ham mpu 
+Oct/23/2018 12:13:43 (vty0)[192.168.111.3] show logging buffer 
+Oct/23/2018 12:14:19 (vty0)[192.168.111.3] show memory 
+Oct/23/2018 12:14:19 (vty0)[192.168.111.3] show pool information 
+Oct/23/2018 12:14:19 (vty0)[192.168.111.3] show netbuffer 
+Oct/23/2018 12:14:20 (vty0)[192.168.111.3] show process 
+Oct/23/2018 12:14:20 (vty0)[192.168.111.3] show stack 
+Oct/23/2018 12:14:21 (vty0)[192.168.111.3] show semaphore binary pended detail 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show semaphore mutex pended detail 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show cpuguard 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show file descriptor 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show fpss loadbalance 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] monitor cpu 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show cpu monitor 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show cpu 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip sockets detail 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip interface brief 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show interface 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show arp queue 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip statistics 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip icmpstat 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show vrrp brief 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show vrrp 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show bfd session 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show keepalive gateway 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip mef summary 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip cache flow statistics 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show nsm error-statistic 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show nsm route statistics 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show arp 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip route 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip route statistic 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip route statistic all 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show mpls forwarding-table statistics record 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip rip 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip ospf neighbor 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show isis neighbors 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip irmp neighbor 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip bgp summary 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show ip bgp vpnv4 all summary 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show mpls ldp adjacency 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show mpls ldp session 
+Oct/23/2018 12:14:22 (vty0)[192.168.111.3] show startup-config 
+Oct/23/2018 12:21:49 (vty0)[192.168.111.3] enable 
+Oct/23/2018 12:31:48 (vty0)[192.168.111.3] enable 
+Oct/23/2018 12:34:05 (vty0)[192.168.111.3] enable 
+Oct/23/2018 12:42:02 (vty0)[192.168.111.3] enable 
+Oct/23/2018 12:42:02 (vty0)[192.168.111.3] show version 
+Oct/23/2018 12:42:02 (vty0)[192.168.111.3] more off 
+Oct/23/2018 12:42:02 (vty0)[192.168.111.3] show version detail 
+Oct/23/2018 12:42:02 (vty0)[192.168.111.3] show running-config 
+Oct/23/2018 12:42:02 (vty0)[192.168.111.3] show history 
+Oct/23/2018 12:42:03 (vty0)[192.168.111.3] show clock 
+Oct/23/2018 12:42:03 (vty0)[192.168.111.3] show environment 
+Oct/23/2018 12:42:03 (vty0)[192.168.111.3] show system module brief 
+Oct/23/2018 12:42:03 (vty0)[192.168.111.3] show system mpu 
+Oct/23/2018 12:42:04 (vty0)[192.168.111.3] show system power 
+Oct/23/2018 12:42:04 (vty0)[192.168.111.3] show ham mpu 
+Oct/23/2018 12:42:04 (vty0)[192.168.111.3] show logging buffer 
+Oct/23/2018 12:42:27 (vty0)[192.168.111.3] show memory 
+Oct/23/2018 12:42:27 (vty0)[192.168.111.3] show pool information 
+Oct/23/2018 12:42:27 (vty0)[192.168.111.3] show netbuffer 
+Oct/23/2018 12:42:27 (vty0)[192.168.111.3] show process 
+Oct/23/2018 12:42:28 (vty0)[192.168.111.3] show stack 
+Oct/23/2018 12:42:29 (vty0)[192.168.111.3] show semaphore binary pended detail 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show semaphore mutex pended detail 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show cpuguard 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show file descriptor 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show fpss loadbalance 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] monitor cpu 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show cpu monitor 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show cpu 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip sockets detail 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip interface brief 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show interface 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show arp queue 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip statistics 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip icmpstat 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show vrrp brief 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show vrrp 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show bfd session 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show keepalive gateway 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip mef summary 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip cache flow statistics 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show nsm error-statistic 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show nsm route statistics 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show arp 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip route 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip route statistic 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip route statistic all 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show mpls forwarding-table statistics record 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip rip 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip ospf neighbor 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show isis neighbors 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip irmp neighbor 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip bgp summary 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show ip bgp vpnv4 all summary 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show mpls ldp adjacency 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show mpls ldp session 
+Oct/23/2018 12:42:30 (vty0)[192.168.111.3] show startup-config 
+Oct/23/2018 12:42:53 (vty1)[192.168.111.3] enable 
+Oct/23/2018 12:42:55 (vty1)[192.168.111.3] who 
+Oct/23/2018 12:42:58 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:01 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:02 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:03 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:04 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:04 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:05 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:05 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:06 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:06 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:07 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:07 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:07 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:08 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:08 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:09 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:09 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:10 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:10 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:11 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:12 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:13 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:14 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:15 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:15 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:16 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:16 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:17 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:18 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:18 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:19 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:19 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:20 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:21 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:21 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:22 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:22 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:23 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:24 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:43:24 (vty1)[192.168.111.3] show ip sockets 
+Oct/23/2018 12:46:16 (vty2)[192.168.111.3] enable 
+Oct/23/2018 12:46:16 (vty2)[192.168.111.3] show version 
+Oct/23/2018 12:46:16 (vty2)[192.168.111.3] more off 
+Oct/23/2018 12:46:17 (vty2)[192.168.111.3] show version detail 
+Oct/23/2018 12:46:17 (vty2)[192.168.111.3] show running-config 
+Oct/23/2018 12:46:17 (vty2)[192.168.111.3] show history 
+Oct/23/2018 12:46:18 (vty2)[192.168.111.3] show clock 
+Oct/23/2018 12:46:18 (vty2)[192.168.111.3] show environment 
+Oct/23/2018 12:46:18 (vty2)[192.168.111.3] show system module brief 
+Oct/23/2018 12:46:18 (vty2)[192.168.111.3] show system mpu 
+Oct/23/2018 12:46:18 (vty2)[192.168.111.3] show system power 
+Oct/23/2018 12:46:19 (vty2)[192.168.111.3] show ham mpu 
+Oct/23/2018 12:46:19 (vty2)[192.168.111.3] show logging buffer 
+Oct/23/2018 12:46:42 (vty2)[192.168.111.3] show memory 
+Oct/23/2018 12:46:42 (vty2)[192.168.111.3] show pool information 
+Oct/23/2018 12:46:42 (vty2)[192.168.111.3] show netbuffer 
+Oct/23/2018 12:46:42 (vty2)[192.168.111.3] show process 
+Oct/23/2018 12:46:43 (vty2)[192.168.111.3] show stack 
+Oct/23/2018 12:46:43 (vty2)[192.168.111.3] show semaphore binary pended detail 
+Oct/23/2018 12:46:44 (vty2)[192.168.111.3] show semaphore mutex pended detail 
+Oct/23/2018 12:46:44 (vty2)[192.168.111.3] show cpuguard 
+Oct/23/2018 12:46:44 (vty2)[192.168.111.3] show file descriptor 
+Oct/23/2018 12:46:44 (vty2)[192.168.111.3] show fpss loadbalance 
+Oct/23/2018 12:46:44 (vty2)[192.168.111.3] monitor cpu 
+Oct/23/2018 12:46:44 (vty2)[192.168.111.3] show cpu monitor 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show cpu 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip sockets detail 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip interface brief 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show interface 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show arp queue 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip statistics 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip icmpstat 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show vrrp brief 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show vrrp 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show bfd session 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show keepalive gateway 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip mef summary 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip cache flow statistics 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show nsm error-statistic 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show nsm route statistics 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show arp 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip route 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip route statistic 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip route statistic all 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show mpls forwarding-table statistics record 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip rip 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip ospf neighbor 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show isis neighbors 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip irmp neighbor 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip bgp summary 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show ip bgp vpnv4 all summary 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show mpls ldp adjacency 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show mpls ldp session 
+Oct/23/2018 12:46:45 (vty2)[192.168.111.3] show startup-config 
+Oct/24/2018 00:07:18 (vty0)[192.168.111.3] enable 
+Oct/24/2018 00:07:57 (vty0)[192.168.111.3] enable 
+Oct/24/2018 00:10:41 (vty0)[192.168.111.3] enable 
+Oct/24/2018 00:10:41 (vty0)[192.168.111.3] show version 
+Oct/24/2018 00:10:41 (vty0)[192.168.111.3] more off 
+Oct/24/2018 00:10:42 (vty0)[192.168.111.3] show version detail 
+Oct/24/2018 00:10:42 (vty0)[192.168.111.3] show running-config 
+Oct/24/2018 00:10:42 (vty0)[192.168.111.3] show history 
+Oct/24/2018 00:10:43 (vty0)[192.168.111.3] show clock 
+Oct/24/2018 00:10:43 (vty0)[192.168.111.3] show environment 
+Oct/24/2018 00:10:43 (vty0)[192.168.111.3] show system module brief 
+Oct/24/2018 00:10:43 (vty0)[192.168.111.3] show system mpu 
+Oct/24/2018 00:10:43 (vty0)[192.168.111.3] show system power 
+Oct/24/2018 00:10:44 (vty0)[192.168.111.3] show ham mpu 
+Oct/24/2018 00:10:44 (vty0)[192.168.111.3] show logging buffer 
+Oct/24/2018 00:11:08 (vty0)[192.168.111.3] show memory 
+Oct/24/2018 00:11:08 (vty0)[192.168.111.3] show pool information 
+Oct/24/2018 00:11:08 (vty0)[192.168.111.3] show netbuffer 
+Oct/24/2018 00:11:08 (vty0)[192.168.111.3] show process 
+Oct/24/2018 00:11:09 (vty0)[192.168.111.3] show stack 
+Oct/24/2018 00:11:09 (vty0)[192.168.111.3] show semaphore binary pended detail 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show semaphore mutex pended detail 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show cpuguard 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show file descriptor 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show fpss loadbalance 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] monitor cpu 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show cpu monitor 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show cpu 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show ip sockets detail 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show ip interface brief 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show interface 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show arp queue 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show ip statistics 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show ip icmpstat 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show vrrp brief 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show vrrp 
+Oct/24/2018 00:11:10 (vty0)[192.168.111.3] show bfd session 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show keepalive gateway 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show ip mef summary 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show ip cache flow statistics 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show nsm error-statistic 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show nsm route statistics 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show arp 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show ip route 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show ip route statistic 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show ip route statistic all 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show mpls forwarding-table statistics record 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show ip rip 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show ip ospf neighbor 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show isis neighbors 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show ip irmp neighbor 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show ip bgp summary 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show ip bgp vpnv4 all summary 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show mpls ldp adjacency 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show mpls ldp session 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] show startup-config 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] filesystem 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] dir 
+Oct/24/2018 00:11:11 (vty0)[192.168.111.3] type logging 
+Oct/24/2018 01:03:58 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:04:00 (vty0)[192.168.111.3] show running-config 
+Oct/24/2018 01:04:03 (vty0)[192.168.111.3] configure terminal 
+Oct/24/2018 01:04:05 (vty0)[192.168.111.3] user a password 0 *** 
+Oct/24/2018 01:04:11 (vty0)[192.168.111.3] line vty 0 4 
+Oct/24/2018 01:04:13 (vty0)[192.168.111.3] login local 
+Oct/24/2018 01:04:24 (vty1:a 1)[192.168.111.3] enable 
+Oct/24/2018 01:07:51 (vty0)[192.168.111.3] end 
+Oct/24/2018 01:07:51 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:07:52 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:07:53 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:07:54 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:07:54 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:07:55 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:07:56 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:07:56 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:08:07 (vty0)[192.168.111.3] terminal monitor 
+Oct/24/2018 01:18:35 (vty0:a 1)[192.168.111.3] enable 
+Oct/24/2018 01:18:36 (vty0:a 1)[192.168.111.3] configure terminal 
+Oct/24/2018 01:18:41 (vty0:a 1)[192.168.111.3] exit 
+Oct/24/2018 01:20:52 (vty0:a 1)[192.168.111.3] configure terminal 
+Oct/24/2018 01:20:55 (vty0:a 1)[192.168.111.3] line vty 0 4 
+Oct/24/2018 01:21:00 (vty0:a 1)[192.168.111.3] no login 
+Oct/24/2018 01:21:01 (vty0:a 1)[192.168.111.3] exit 
+Oct/24/2018 01:21:01 (vty0:a 1)[192.168.111.3] end 
+Oct/24/2018 01:23:18 (vty1)[192.168.111.3] enable 
+Oct/24/2018 01:36:28 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:36:28 (vty1)[192.168.111.3] enable 
+Oct/24/2018 01:36:44 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:36:45 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:46 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:47 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:47 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:48 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:49 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:49 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:50 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:51 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:51 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:52 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:52 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:53 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:53 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:54 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:55 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:55 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:56 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:56 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:57 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:57 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:58 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:36:59 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:42:22 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:42:57 (vty1)[192.168.111.3] enable 
+Oct/24/2018 01:42:57 (vty2)[192.168.111.3] enable 
+Oct/24/2018 01:43:53 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:43:54 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:43:55 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:43:55 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:43:56 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:43:57 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:43:58 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:43:58 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:43:59 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:44:00 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:46:32 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:46:33 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:46:33 (vty0)[192.168.111.3] who 
+Oct/24/2018 01:52:11 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:52:32 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:52:57 (vty1)[192.168.111.3] enable 
+Oct/24/2018 01:52:59 (vty1)[192.168.111.3] who 
+Oct/24/2018 01:53:00 (vty1)[192.168.111.3] terminal monitor 
+Oct/24/2018 01:53:02 (vty1)[192.168.111.3] terminal monitor 
+Oct/24/2018 01:53:07 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:53:26 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:54:03 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:56:15 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:58:58 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:59:19 (vty0)[192.168.111.3] enable 
+Oct/24/2018 01:59:49 (vty0)[192.168.111.3] enable 
+Oct/24/2018 02:00:41 (vty0)[192.168.111.3] enable 
+Oct/24/2018 02:01:37 (vty0)[192.168.111.3] enable 
+Oct/24/2018 02:02:16 (vty0)[192.168.111.3] enable 
+Oct/24/2018 02:03:02 (vty0)[192.168.111.3] enable 
+Nov/02/2018 01:22:34 (vty0)[192.168.111.3] enable 
+Nov/02/2018 01:22:35 (vty0)[192.168.111.3] show running-config 
+Nov/02/2018 01:22:40 (vty0)[192.168.111.3] more off 
+Nov/02/2018 01:22:41 (vty0)[192.168.111.3] show running-config 
+Nov/02/2018 01:22:44 (vty0)[192.168.111.3] show running-config 
+Nov/02/2018 01:22:47 (vty0)[192.168.111.3] show logging 
+Nov/02/2018 01:23:08 (vty0)[192.168.111.3] show logging file 
+Nov/02/2018 01:30:10 (vty0)[192.168.111.3] enable 
+Nov/02/2018 01:32:14 (vty0)[192.168.111.3] enable 
+Nov/02/2018 01:32:15 (vty0)[192.168.111.3] who 
+Nov/02/2018 01:32:16 (vty0)[192.168.111.3] who 
+Nov/02/2018 01:32:20 (vty1)[192.168.111.3] enable 
+Nov/02/2018 01:32:21 (vty0)[192.168.111.3] who 
+Nov/02/2018 01:32:21 (vty0)[192.168.111.3] who 
+Nov/02/2018 01:32:22 (vty0)[192.168.111.3] who 
+Nov/02/2018 01:32:24 (vty0)[192.168.111.3] who 
+Nov/02/2018 01:32:25 (vty0)[192.168.111.3] who 
+Nov/02/2018 01:32:25 (vty0)[192.168.111.3] who 
+Nov/02/2018 01:32:25 (vty0)[192.168.111.3] who 
+Nov/02/2018 01:37:00 (vty1)[192.168.111.3] enable 
+Nov/02/2018 01:41:58 (vty0)[192.168.111.3] enable 
+Nov/02/2018 01:45:09 (vty0)[192.168.111.3] enable 
+Nov/02/2018 01:47:12 (vty1)[192.168.111.3] enable 
+Nov/02/2018 01:47:14 (vty1)[192.168.111.3] who 
+Nov/02/2018 01:47:15 (vty1)[192.168.111.3] who 
+Nov/02/2018 01:47:19 (vty1)[192.168.111.3] show history 
+Nov/02/2018 01:47:43 (vty1)[192.168.111.3] show history 
+Nov/02/2018 01:48:28 (vty1)[192.168.111.3] show history 
+Nov/02/2018 01:55:02 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:04:10 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:04:25 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:04:28 (vty0)[192.168.111.3] show history 
+Nov/02/2018 02:04:44 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:04:53 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:04:56 (vty0)[192.168.111.3] show history 
+Nov/02/2018 02:05:32 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:05:34 (vty0)[192.168.111.3] show history 
+Nov/02/2018 02:05:47 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:05:48 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:05:49 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:05:51 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:05:52 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:06:18 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:06:40 (vty2)[192.168.111.3] enable 
+Nov/02/2018 02:06:59 (vty2)[192.168.111.3] enable 
+Nov/02/2018 02:07:38 (vty2)[192.168.111.3] enable 
+Nov/02/2018 02:08:26 (vty2)[192.168.111.3] enable 
+Nov/02/2018 02:09:04 (vty2)[192.168.111.3] enable 
+Nov/02/2018 02:09:50 (vty2)[192.168.111.3] enable 
+Nov/02/2018 02:10:50 (vty2)[192.168.111.3] enable 
+Nov/02/2018 02:11:11 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:14:55 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:16:31 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:16:52 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:17:07 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:17:23 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:17:50 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:25:59 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:26:33 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:26:35 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:26:36 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:26:39 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:26:39 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:26:39 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:26:40 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:26:40 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:26:40 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:26:41 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:27:15 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:27:17 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:27:18 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:27:18 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:27:18 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:02 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:03 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:03 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:03 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:04 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:05 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:05 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:05 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:13 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:28:15 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:16 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:16 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:28:16 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:29:00 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:29:46 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:33:12 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:33:12 (vty1)[192.168.111.3] show version 
+Nov/02/2018 02:33:12 (vty1)[192.168.111.3] more off 
+Nov/02/2018 02:33:12 (vty1)[192.168.111.3] show version detail 
+Nov/02/2018 02:33:12 (vty1)[192.168.111.3] show running-config 
+Nov/02/2018 02:33:12 (vty1)[192.168.111.3] show history 
+Nov/02/2018 02:33:14 (vty1)[192.168.111.3] show clock 
+Nov/02/2018 02:33:14 (vty1)[192.168.111.3] show environment 
+Nov/02/2018 02:33:14 (vty1)[192.168.111.3] show system module brief 
+Nov/02/2018 02:33:14 (vty1)[192.168.111.3] show system mpu 
+Nov/02/2018 02:33:14 (vty1)[192.168.111.3] show system power 
+Nov/02/2018 02:33:14 (vty1)[192.168.111.3] show ham mpu 
+Nov/02/2018 02:33:14 (vty1)[192.168.111.3] show logging buffer 
+Nov/02/2018 02:33:18 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:33:19 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:20 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:21 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:21 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:34 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:35 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:35 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:35 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:36 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:36 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:36 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:37 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:41 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:41 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:42 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:42 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:43 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:43 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:43 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:44 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:51 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:51 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:33:52 (vty1)[192.168.111.3] show memory 
+Nov/02/2018 02:33:52 (vty1)[192.168.111.3] show pool information 
+Nov/02/2018 02:33:52 (vty1)[192.168.111.3] show netbuffer 
+Nov/02/2018 02:33:52 (vty1)[192.168.111.3] show process 
+Nov/02/2018 02:33:53 (vty1)[192.168.111.3] show stack 
+Nov/02/2018 02:33:53 (vty1)[192.168.111.3] show semaphore binary pended detail 
+Nov/02/2018 02:33:54 (vty1)[192.168.111.3] show semaphore mutex pended detail 
+Nov/02/2018 02:33:54 (vty1)[192.168.111.3] show cpuguard 
+Nov/02/2018 02:33:54 (vty1)[192.168.111.3] show file descriptor 
+Nov/02/2018 02:33:54 (vty1)[192.168.111.3] show fpss loadbalance 
+Nov/02/2018 02:33:54 (vty1)[192.168.111.3] monitor cpu 
+Nov/02/2018 02:33:54 (vty1)[192.168.111.3] show cpu monitor 
+Nov/02/2018 02:33:54 (vty1)[192.168.111.3] show cpu 
+Nov/02/2018 02:33:54 (vty1)[192.168.111.3] show ip sockets detail 
+Nov/02/2018 02:33:54 (vty1)[192.168.111.3] show ip interface brief 
+Nov/02/2018 02:33:54 (vty1)[192.168.111.3] show interface 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show arp queue 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip statistics 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip icmpstat 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show vrrp brief 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show vrrp 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show bfd session 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show keepalive gateway 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip mef summary 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip cache flow statistics 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show nsm error-statistic 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show nsm route statistics 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show arp 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip route 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip route statistic 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip route statistic all 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show mpls forwarding-table statistics record 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip rip 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip ospf neighbor 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show isis neighbors 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip irmp neighbor 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip bgp summary 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show ip bgp vpnv4 all summary 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show mpls ldp adjacency 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show mpls ldp session 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] show startup-config 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] filesystem 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] dir 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] type logging 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] type history 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] cd tech 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] dir 
+Nov/02/2018 02:33:55 (vty1)[192.168.111.3] exit 
+Nov/02/2018 02:34:05 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:34:06 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:34:06 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:34:06 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:34:07 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:34:07 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:34:08 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:34:08 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:34:08 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:34:09 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:35:04 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:35:04 (vty1)[192.168.111.3] show version 
+Nov/02/2018 02:35:04 (vty1)[192.168.111.3] more off 
+Nov/02/2018 02:35:05 (vty1)[192.168.111.3] show version detail 
+Nov/02/2018 02:35:05 (vty1)[192.168.111.3] show running-config 
+Nov/02/2018 02:35:05 (vty1)[192.168.111.3] show history 
+Nov/02/2018 02:35:07 (vty1)[192.168.111.3] show clock 
+Nov/02/2018 02:35:07 (vty1)[192.168.111.3] show environment 
+Nov/02/2018 02:35:07 (vty1)[192.168.111.3] show system module brief 
+Nov/02/2018 02:35:07 (vty1)[192.168.111.3] show system mpu 
+Nov/02/2018 02:35:07 (vty1)[192.168.111.3] show system power 
+Nov/02/2018 02:35:07 (vty1)[192.168.111.3] show ham mpu 
+Nov/02/2018 02:35:07 (vty1)[192.168.111.3] show logging buffer 
+Nov/02/2018 02:35:45 (vty1)[192.168.111.3] show memory 
+Nov/02/2018 02:35:45 (vty1)[192.168.111.3] show pool information 
+Nov/02/2018 02:35:45 (vty1)[192.168.111.3] show netbuffer 
+Nov/02/2018 02:35:45 (vty1)[192.168.111.3] show process 
+Nov/02/2018 02:35:46 (vty1)[192.168.111.3] show stack 
+Nov/02/2018 02:35:47 (vty1)[192.168.111.3] show semaphore binary pended detail 
+Nov/02/2018 02:35:47 (vty1)[192.168.111.3] show semaphore mutex pended detail 
+Nov/02/2018 02:35:47 (vty1)[192.168.111.3] show cpuguard 
+Nov/02/2018 02:35:47 (vty1)[192.168.111.3] show file descriptor 
+Nov/02/2018 02:35:47 (vty1)[192.168.111.3] show fpss loadbalance 
+Nov/02/2018 02:35:47 (vty1)[192.168.111.3] monitor cpu 
+Nov/02/2018 02:35:47 (vty1)[192.168.111.3] show cpu monitor 
+Nov/02/2018 02:35:47 (vty1)[192.168.111.3] show cpu 
+Nov/02/2018 02:35:47 (vty1)[192.168.111.3] show ip sockets detail 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip interface brief 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show interface 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show arp queue 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip statistics 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip icmpstat 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show vrrp brief 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show vrrp 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show bfd session 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show keepalive gateway 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip mef summary 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip cache flow statistics 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show nsm error-statistic 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show nsm route statistics 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show arp 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip route 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip route statistic 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip route statistic all 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show mpls forwarding-table statistics record 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip rip 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip ospf neighbor 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show isis neighbors 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip irmp neighbor 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip bgp summary 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show ip bgp vpnv4 all summary 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show mpls ldp adjacency 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show mpls ldp session 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] show startup-config 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] filesystem 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] dir 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] type logging 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] type history 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] cd tech 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] dir 
+Nov/02/2018 02:35:48 (vty1)[192.168.111.3] exit 
+Nov/02/2018 02:38:03 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:38:03 (vty1)[192.168.111.3] show version 
+Nov/02/2018 02:38:03 (vty1)[192.168.111.3] more off 
+Nov/02/2018 02:38:03 (vty1)[192.168.111.3] show version detail 
+Nov/02/2018 02:38:03 (vty1)[192.168.111.3] show running-config 
+Nov/02/2018 02:38:03 (vty1)[192.168.111.3] show history 
+Nov/02/2018 02:38:05 (vty1)[192.168.111.3] show clock 
+Nov/02/2018 02:38:05 (vty1)[192.168.111.3] show environment 
+Nov/02/2018 02:38:05 (vty1)[192.168.111.3] show system module brief 
+Nov/02/2018 02:38:05 (vty1)[192.168.111.3] show system mpu 
+Nov/02/2018 02:38:05 (vty1)[192.168.111.3] show system power 
+Nov/02/2018 02:38:05 (vty1)[192.168.111.3] show ham mpu 
+Nov/02/2018 02:38:05 (vty1)[192.168.111.3] show logging buffer 
+Nov/02/2018 02:38:44 (vty1)[192.168.111.3] show memory 
+Nov/02/2018 02:38:44 (vty1)[192.168.111.3] show pool information 
+Nov/02/2018 02:38:44 (vty1)[192.168.111.3] show netbuffer 
+Nov/02/2018 02:38:44 (vty1)[192.168.111.3] show process 
+Nov/02/2018 02:38:44 (vty1)[192.168.111.3] show stack 
+Nov/02/2018 02:38:45 (vty1)[192.168.111.3] show semaphore binary pended detail 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show semaphore mutex pended detail 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show cpuguard 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show file descriptor 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show fpss loadbalance 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] monitor cpu 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show cpu monitor 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show cpu 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip sockets detail 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip interface brief 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show interface 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show arp queue 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip statistics 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip icmpstat 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show vrrp brief 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show vrrp 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show bfd session 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show keepalive gateway 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip mef summary 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip cache flow statistics 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show nsm error-statistic 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show nsm route statistics 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show arp 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip route 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip route statistic 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip route statistic all 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show mpls forwarding-table statistics record 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip rip 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip ospf neighbor 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show isis neighbors 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip irmp neighbor 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip bgp summary 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show ip bgp vpnv4 all summary 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show mpls ldp adjacency 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show mpls ldp session 
+Nov/02/2018 02:38:46 (vty1)[192.168.111.3] show startup-config 
+Nov/02/2018 02:38:47 (vty1)[192.168.111.3] filesystem 
+Nov/02/2018 02:38:47 (vty1)[192.168.111.3] dir 
+Nov/02/2018 02:38:47 (vty1)[192.168.111.3] type logging 
+Nov/02/2018 02:38:47 (vty1)[192.168.111.3] type history 
+Nov/02/2018 02:38:47 (vty1)[192.168.111.3] cd tech 
+Nov/02/2018 02:38:47 (vty1)[192.168.111.3] dir 
+Nov/02/2018 02:38:47 (vty1)[192.168.111.3] exit 
+Nov/02/2018 02:40:45 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:40:47 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:40:48 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:40:48 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:40:49 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:40:49 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:40:49 (vty0)[192.168.111.3] who 
+Nov/02/2018 02:41:52 (vty2)[192.168.111.3] enable 
+Nov/02/2018 02:42:11 (vty2)[192.168.111.3] show running-config 
+Nov/02/2018 02:42:16 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:19 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:20 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:43 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:44 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:44 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:44 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:48 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:50 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:50 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:50 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:51 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:51 (vty2)[192.168.111.3] show environment 
+Nov/02/2018 02:42:53 (vty2)[192.168.111.3] show running-config 
+Nov/02/2018 02:42:57 (vty2)[192.168.111.3] show logging 
+Nov/02/2018 02:43:21 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:43:22 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:43:23 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:43:23 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:43:24 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:43:30 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:43:31 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:40 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:44:40 (vty0)[192.168.111.3] show version 
+Nov/02/2018 02:44:40 (vty0)[192.168.111.3] more off 
+Nov/02/2018 02:44:40 (vty0)[192.168.111.3] show version detail 
+Nov/02/2018 02:44:40 (vty0)[192.168.111.3] show running-config 
+Nov/02/2018 02:44:40 (vty0)[192.168.111.3] show history 
+Nov/02/2018 02:44:43 (vty0)[192.168.111.3] show clock 
+Nov/02/2018 02:44:43 (vty0)[192.168.111.3] show environment 
+Nov/02/2018 02:44:43 (vty0)[192.168.111.3] show system module brief 
+Nov/02/2018 02:44:43 (vty0)[192.168.111.3] show system mpu 
+Nov/02/2018 02:44:43 (vty0)[192.168.111.3] show system power 
+Nov/02/2018 02:44:43 (vty0)[192.168.111.3] show ham mpu 
+Nov/02/2018 02:44:43 (vty0)[192.168.111.3] show logging buffer 
+Nov/02/2018 02:44:46 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:47 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:47 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:47 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:47 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:48 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:48 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:48 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:49 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:49 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:49 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:50 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:50 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:50 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:55 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:57 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:44:59 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:00 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:00 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:00 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:00 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:01 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:01 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:02 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:03 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:03 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:04 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:04 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:21 (vty0)[192.168.111.3] show memory 
+Nov/02/2018 02:45:21 (vty0)[192.168.111.3] show pool information 
+Nov/02/2018 02:45:21 (vty0)[192.168.111.3] show netbuffer 
+Nov/02/2018 02:45:21 (vty0)[192.168.111.3] show process 
+Nov/02/2018 02:45:22 (vty0)[192.168.111.3] show stack 
+Nov/02/2018 02:45:32 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:45:32 (vty0)[192.168.111.3] show version 
+Nov/02/2018 02:45:32 (vty0)[192.168.111.3] more off 
+Nov/02/2018 02:45:32 (vty0)[192.168.111.3] show version detail 
+Nov/02/2018 02:45:32 (vty0)[192.168.111.3] show running-config 
+Nov/02/2018 02:45:32 (vty0)[192.168.111.3] show history 
+Nov/02/2018 02:45:35 (vty0)[192.168.111.3] show clock 
+Nov/02/2018 02:45:35 (vty0)[192.168.111.3] show environment 
+Nov/02/2018 02:45:35 (vty0)[192.168.111.3] show system module brief 
+Nov/02/2018 02:45:35 (vty0)[192.168.111.3] show system mpu 
+Nov/02/2018 02:45:35 (vty0)[192.168.111.3] show system power 
+Nov/02/2018 02:45:35 (vty0)[192.168.111.3] show ham mpu 
+Nov/02/2018 02:45:35 (vty0)[192.168.111.3] show logging buffer 
+Nov/02/2018 02:45:49 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:49 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:50 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:50 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:45:50 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:13 (vty0)[192.168.111.3] show memory 
+Nov/02/2018 02:46:13 (vty0)[192.168.111.3] show pool information 
+Nov/02/2018 02:46:13 (vty0)[192.168.111.3] show netbuffer 
+Nov/02/2018 02:46:13 (vty0)[192.168.111.3] show process 
+Nov/02/2018 02:46:13 (vty0)[192.168.111.3] show stack 
+Nov/02/2018 02:46:14 (vty0)[192.168.111.3] show semaphore binary pended detail 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show semaphore mutex pended detail 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show cpuguard 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show file descriptor 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show fpss loadbalance 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] monitor cpu 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show cpu monitor 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show cpu 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show ip sockets detail 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show ip interface brief 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show interface 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show arp queue 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show ip statistics 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show ip icmpstat 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show vrrp brief 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show vrrp 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show bfd session 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show keepalive gateway 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show ip mef summary 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show ip cache flow statistics 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show nsm error-statistic 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show nsm route statistics 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show arp 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show ip route 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show ip route statistic 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show ip route statistic all 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show mpls forwarding-table statistics record 
+Nov/02/2018 02:46:15 (vty0)[192.168.111.3] show ip rip 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] show ip ospf neighbor 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] show isis neighbors 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] show ip irmp neighbor 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] show ip bgp summary 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] show ip bgp vpnv4 all summary 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] show mpls ldp adjacency 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] show mpls ldp session 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] show startup-config 
+Nov/02/2018 02:46:16 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] filesystem 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] dir 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] type logging 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] type history 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] cd tech 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] dir 
+Nov/02/2018 02:46:16 (vty0)[192.168.111.3] exit 
+Nov/02/2018 02:46:16 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:17 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:17 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:17 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:19 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:20 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:20 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:20 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:22 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:23 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:25 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:26 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:26 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:27 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:28 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:28 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:28 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:29 (vty2)[192.168.111.3] who 
+Nov/02/2018 02:46:34 (vty2)[192.168.111.3] configure terminal 
+Nov/02/2018 02:46:37 (vty2)[192.168.111.3] line vty 04 
+Nov/02/2018 02:46:41 (vty2)[192.168.111.3] line vty 0 4 
+Nov/02/2018 02:46:45 (vty2)[192.168.111.3] exec-timeout 2 
+Nov/02/2018 02:46:51 (vty2)[192.168.111.3] do show run af 
+Nov/02/2018 02:46:56 (vty2)[192.168.111.3] exec-timeout 0 2 
+Nov/02/2018 02:47:12 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:47:13 (vty1)[192.168.111.3] configure terminal 
+Nov/02/2018 02:47:17 (vty1)[192.168.111.3] line vty 0 4 
+Nov/02/2018 02:47:21 (vty1)[192.168.111.3] exec-timeout 2 
+Nov/02/2018 02:47:24 (vty1)[192.168.111.3] end 
+Nov/02/2018 02:47:25 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:47:26 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:47:27 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:47:27 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:47:28 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:47:58 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:47:59 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:47:59 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:00 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:00 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:00 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:01 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:01 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:01 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:17 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:18 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:18 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:18 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:19 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:19 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:19 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:20 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:20 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:21 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:21 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:21 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:48:22 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:50:19 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:50:19 (vty0)[192.168.111.3] show version 
+Nov/02/2018 02:50:19 (vty0)[192.168.111.3] more off 
+Nov/02/2018 02:50:19 (vty0)[192.168.111.3] show version detail 
+Nov/02/2018 02:50:19 (vty0)[192.168.111.3] show running-config 
+Nov/02/2018 02:50:19 (vty0)[192.168.111.3] show history 
+Nov/02/2018 02:50:22 (vty0)[192.168.111.3] show clock 
+Nov/02/2018 02:50:22 (vty0)[192.168.111.3] show environment 
+Nov/02/2018 02:50:22 (vty0)[192.168.111.3] show system module brief 
+Nov/02/2018 02:50:22 (vty0)[192.168.111.3] show system mpu 
+Nov/02/2018 02:50:22 (vty0)[192.168.111.3] show system power 
+Nov/02/2018 02:50:22 (vty0)[192.168.111.3] show ham mpu 
+Nov/02/2018 02:50:22 (vty0)[192.168.111.3] show logging buffer 
+Nov/02/2018 02:51:01 (vty0)[192.168.111.3] show memory 
+Nov/02/2018 02:51:01 (vty0)[192.168.111.3] show pool information 
+Nov/02/2018 02:51:01 (vty0)[192.168.111.3] show netbuffer 
+Nov/02/2018 02:51:01 (vty0)[192.168.111.3] show process 
+Nov/02/2018 02:51:02 (vty0)[192.168.111.3] show stack 
+Nov/02/2018 02:51:02 (vty0)[192.168.111.3] show semaphore binary pended detail 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] show semaphore mutex pended detail 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] show cpuguard 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] show file descriptor 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] show fpss loadbalance 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] monitor cpu 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] show cpu monitor 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] show cpu 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] show ip sockets detail 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] show ip interface brief 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] show interface 
+Nov/02/2018 02:51:03 (vty0)[192.168.111.3] show arp queue 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip statistics 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip icmpstat 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show vrrp brief 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show vrrp 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show bfd session 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show keepalive gateway 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip mef summary 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip cache flow statistics 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show nsm error-statistic 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show nsm route statistics 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show arp 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip route 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip route statistic 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip route statistic all 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show mpls forwarding-table statistics record 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip rip 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip ospf neighbor 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show isis neighbors 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip irmp neighbor 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip bgp summary 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show ip bgp vpnv4 all summary 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show mpls ldp adjacency 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show mpls ldp session 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] show startup-config 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] filesystem 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] dir 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] type logging 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] type history 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] cd tech 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] dir 
+Nov/02/2018 02:51:04 (vty0)[192.168.111.3] exit 
+Nov/02/2018 02:52:21 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:52:21 (vty0)[192.168.111.3] show version 
+Nov/02/2018 02:52:21 (vty0)[192.168.111.3] more off 
+Nov/02/2018 02:52:21 (vty0)[192.168.111.3] show version detail 
+Nov/02/2018 02:52:22 (vty0)[192.168.111.3] show running-config 
+Nov/02/2018 02:52:22 (vty0)[192.168.111.3] show history 
+Nov/02/2018 02:52:24 (vty0)[192.168.111.3] show clock 
+Nov/02/2018 02:52:24 (vty0)[192.168.111.3] show environment 
+Nov/02/2018 02:52:24 (vty0)[192.168.111.3] show system module brief 
+Nov/02/2018 02:52:24 (vty0)[192.168.111.3] show system mpu 
+Nov/02/2018 02:52:24 (vty0)[192.168.111.3] show system power 
+Nov/02/2018 02:52:24 (vty0)[192.168.111.3] show ham mpu 
+Nov/02/2018 02:52:24 (vty0)[192.168.111.3] show logging buffer 
+Nov/02/2018 02:52:30 (vty1)[192.168.111.3] enable 
+Nov/02/2018 02:52:31 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:32 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:32 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:33 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:33 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:34 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:35 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:35 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:36 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:36 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:37 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:38 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:39 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:39 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:39 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:52:40 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:03 (vty0)[192.168.111.3] show memory 
+Nov/02/2018 02:53:03 (vty0)[192.168.111.3] show pool information 
+Nov/02/2018 02:53:03 (vty0)[192.168.111.3] show netbuffer 
+Nov/02/2018 02:53:03 (vty0)[192.168.111.3] show process 
+Nov/02/2018 02:53:03 (vty0)[192.168.111.3] show stack 
+Nov/02/2018 02:53:04 (vty0)[192.168.111.3] show semaphore binary pended detail 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show semaphore mutex pended detail 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show cpuguard 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show file descriptor 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show fpss loadbalance 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] monitor cpu 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show cpu monitor 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show cpu 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip sockets detail 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip interface brief 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show interface 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show arp queue 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip statistics 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip icmpstat 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show vrrp brief 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show vrrp 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show bfd session 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show keepalive gateway 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip mef summary 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip cache flow statistics 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show nsm error-statistic 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show nsm route statistics 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show arp 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip route 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip route statistic 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip route statistic all 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show mpls forwarding-table statistics record 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip rip 
+Nov/02/2018 02:53:05 (vty0)[192.168.111.3] show ip ospf neighbor 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] show isis neighbors 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] show ip irmp neighbor 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] show ip bgp summary 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] show ip bgp vpnv4 all summary 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] show mpls ldp adjacency 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] show mpls ldp session 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] show startup-config 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] filesystem 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] dir 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] type logging 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] type history 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] cd tech 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] dir 
+Nov/02/2018 02:53:06 (vty0)[192.168.111.3] exit 
+Nov/02/2018 02:53:17 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:18 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:18 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:19 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:19 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:19 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:19 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:21 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:21 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:22 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:22 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:23 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:53:23 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:54:09 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:54:56 (vty1)[192.168.111.3] configure terminal 
+Nov/02/2018 02:54:59 (vty1)[192.168.111.3] line vty 0 4 
+Nov/02/2018 02:55:02 (vty1)[192.168.111.3] exec-timeout 1 
+Nov/02/2018 02:55:03 (vty1)[192.168.111.3] end 
+Nov/02/2018 02:55:06 (vty0)[192.168.111.3] enable 
+Nov/02/2018 02:55:06 (vty0)[192.168.111.3] show version 
+Nov/02/2018 02:55:06 (vty0)[192.168.111.3] more off 
+Nov/02/2018 02:55:06 (vty0)[192.168.111.3] show version detail 
+Nov/02/2018 02:55:06 (vty0)[192.168.111.3] show running-config 
+Nov/02/2018 02:55:06 (vty0)[192.168.111.3] show history 
+Nov/02/2018 02:55:09 (vty0)[192.168.111.3] show clock 
+Nov/02/2018 02:55:09 (vty0)[192.168.111.3] show environment 
+Nov/02/2018 02:55:09 (vty0)[192.168.111.3] show system module brief 
+Nov/02/2018 02:55:09 (vty0)[192.168.111.3] show system mpu 
+Nov/02/2018 02:55:09 (vty0)[192.168.111.3] show system power 
+Nov/02/2018 02:55:09 (vty0)[192.168.111.3] show ham mpu 
+Nov/02/2018 02:55:09 (vty0)[192.168.111.3] show logging buffer 
+Nov/02/2018 02:55:48 (vty0)[192.168.111.3] show memory 
+Nov/02/2018 02:55:48 (vty0)[192.168.111.3] show pool information 
+Nov/02/2018 02:55:48 (vty0)[192.168.111.3] show netbuffer 
+Nov/02/2018 02:55:48 (vty0)[192.168.111.3] show process 
+Nov/02/2018 02:55:49 (vty0)[192.168.111.3] show stack 
+Nov/02/2018 02:55:50 (vty0)[192.168.111.3] show semaphore binary pended detail 
+Nov/02/2018 02:55:50 (vty0)[192.168.111.3] show semaphore mutex pended detail 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show cpuguard 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show file descriptor 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show fpss loadbalance 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] monitor cpu 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show cpu monitor 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show cpu 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip sockets detail 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip interface brief 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show interface 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show arp queue 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip statistics 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip icmpstat 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show vrrp brief 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show vrrp 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show bfd session 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show keepalive gateway 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip mef summary 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip cache flow statistics 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show nsm error-statistic 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show nsm route statistics 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show arp 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip route 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip route statistic 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip route statistic all 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show mpls forwarding-table statistics record 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip rip 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip ospf neighbor 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show isis neighbors 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip irmp neighbor 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip bgp summary 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show ip bgp vpnv4 all summary 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show mpls ldp adjacency 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show mpls ldp session 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] show startup-config 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] filesystem 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] dir 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] type logging 
+Nov/02/2018 02:55:51 (vty0)[192.168.111.3] type history 
+Nov/02/2018 02:55:52 (vty0)[192.168.111.3] cd tech 
+Nov/02/2018 02:55:52 (vty0)[192.168.111.3] dir 
+Nov/02/2018 02:55:52 (vty0)[192.168.111.3] exit 
+Nov/02/2018 02:56:03 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:04 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:04 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:05 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:05 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:05 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:05 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:06 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:06 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:17 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:17 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:17 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:18 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:18 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:18 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:44 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:45 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:45 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:45 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:46 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:46 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:47 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:47 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:48 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:48 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:49 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:49 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:50 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:50 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:51 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:51 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:52 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:52 (vty1)[192.168.111.3] who 
+Nov/02/2018 02:56:53 (vty1)[192.168.111.3] who 
+Nov/02/2018 05:49:43 (vty0)[192.168.111.3] enable 
+Nov/02/2018 05:50:35 (vty0)[192.168.111.3] enable 
+Nov/02/2018 06:00:45 (vty0)[192.168.111.3] enable 
+Nov/02/2018 06:12:45 (vty0)[192.168.111.3] enable 
+Nov/02/2018 08:21:26 (vty0)[192.168.111.17] enable 
+Nov/02/2018 08:21:30 (vty0)[192.168.111.17] show running-config 
+Nov/02/2018 08:21:37 (vty0)[192.168.111.17] show ip interface brief 
+Nov/02/2018 08:21:43 (vty0)[192.168.111.17] configure terminal 
+Nov/02/2018 08:22:00 (vty0)[192.168.111.17] logging filter include fastcellular1 
+Nov/02/2018 08:22:09 (vty0)[192.168.111.17] logging filter level 0 7 
+Nov/02/2018 08:22:11 (vty0)[192.168.111.17] exit 
+Nov/02/2018 08:22:16 (vty0)[192.168.111.17] terminal monitor 
+Nov/02/2018 08:22:17 (vty0)[192.168.111.17] configure terminal 
+Nov/02/2018 08:22:23 (vty0)[192.168.111.17] interface fastcellular1 
+Nov/02/2018 08:22:24 (vty0)[192.168.111.17] shutdown 
+Nov/02/2018 08:22:32 (vty0)[192.168.111.17] no shutdown 
+Nov/02/2018 08:22:33 (vty0)[192.168.111.17] end 
+Nov/02/2018 08:22:35 (vty0)[192.168.111.17] show running-config 
+Nov/02/2018 08:22:42 (vty0)[192.168.111.17] configure terminal 
+Nov/02/2018 08:23:09 (vty0)[192.168.111.17] logging filter include fastcellular1 
+Nov/02/2018 08:23:13 (vty0)[192.168.111.17] interface fastcellular1 
+Nov/02/2018 08:23:14 (vty0)[192.168.111.17] shutdown 
+Nov/02/2018 08:57:09 (vty0)[192.168.111.17] enable 
+Nov/02/2018 08:57:12 (vty0)[192.168.111.17] show version 
+Nov/05/2018 00:34:10 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:34:36 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:37:30 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:38:17 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:38:45 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:38:47 (vty0)[192.168.111.3] show logging 
+Nov/05/2018 00:39:04 (vty1)[192.168.111.3] enable 
+Nov/05/2018 00:40:40 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:40:56 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:50:54 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:50:54 (vty0)[192.168.111.3] more off 
+Nov/05/2018 00:50:54 (vty0)[192.168.111.3] show logging 
+Nov/05/2018 00:52:28 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:52:29 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:33 (vty1)[192.168.111.3] enable 
+Nov/05/2018 00:52:33 (vty1)[192.168.111.3] more off 
+Nov/05/2018 00:52:33 (vty1)[192.168.111.3] show logging 
+Nov/05/2018 00:52:34 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:35 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:35 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:35 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:36 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:36 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:36 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:37 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:37 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:38 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:38 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:39 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:43 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:43 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:44 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:45 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:45 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:46 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:46 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:46 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:47 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:47 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:48 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:48 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:49 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:49 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:50 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:51 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:51 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:52 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:53 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:54 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:54 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:52:55 (vty0)[192.168.111.3] who 
+Nov/05/2018 00:54:13 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:54:13 (vty0)[192.168.111.3] more off 
+Nov/05/2018 00:54:13 (vty0)[192.168.111.3] show logging 
+Nov/05/2018 00:54:19 (vty1)[192.168.111.3] enable 
+Nov/05/2018 00:54:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:54:22 (vty1)[192.168.111.3] enable 
+Nov/05/2018 00:54:23 (vty1)[192.168.111.3] enable 
+Nov/05/2018 00:54:23 (vty1)[192.168.111.3] enable 
+Nov/05/2018 00:54:23 (vty1)[192.168.111.3] enable 
+Nov/05/2018 00:54:25 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:54:25 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:54:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:54:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:54:27 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:54:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:54:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:00 (vty0)[192.168.111.3] enable 
+Nov/05/2018 00:55:00 (vty0)[192.168.111.3] more off 
+Nov/05/2018 00:55:00 (vty0)[192.168.111.3] show logging 
+Nov/05/2018 00:55:09 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:10 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:10 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:10 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:11 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:11 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:12 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:12 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:12 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:13 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:13 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:13 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:15 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:16 (vty1)[192.168.111.3] who 
+Nov/05/2018 00:55:16 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:04:26 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:04:26 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:05:16 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:05:16 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:05:23 (vty1)[192.168.111.3] enable 
+Nov/05/2018 01:05:24 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:05:25 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:05:25 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:05:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:05:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:05:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:06:27 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:06:27 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:06:27 (vty0)[192.168.111.3] more off 
+Nov/05/2018 01:06:27 (vty0)[192.168.111.3] show version detail 
+Nov/05/2018 01:06:27 (vty0)[192.168.111.3] show running-config 
+Nov/05/2018 01:06:27 (vty0)[192.168.111.3] show history 
+Nov/05/2018 01:06:31 (vty0)[192.168.111.3] show clock 
+Nov/05/2018 01:06:31 (vty0)[192.168.111.3] show environment 
+Nov/05/2018 01:06:31 (vty0)[192.168.111.3] show system module brief 
+Nov/05/2018 01:06:31 (vty0)[192.168.111.3] show system mpu 
+Nov/05/2018 01:06:31 (vty0)[192.168.111.3] show system power 
+Nov/05/2018 01:06:31 (vty0)[192.168.111.3] show ham mpu 
+Nov/05/2018 01:06:31 (vty0)[192.168.111.3] show logging buffer 
+Nov/05/2018 01:06:35 (vty1)[192.168.111.3] enable 
+Nov/05/2018 01:06:36 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:06:36 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:06:39 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:06:39 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:06:40 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:07:58 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:07:58 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:07:59 (vty0)[192.168.111.3] more off 
+Nov/05/2018 01:08:00 (vty0)[192.168.111.3] show version detail 
+Nov/05/2018 01:08:01 (vty0)[192.168.111.3] show running-config 
+Nov/05/2018 01:08:02 (vty0)[192.168.111.3] show history 
+Nov/05/2018 01:08:05 (vty0)[192.168.111.3] show clock 
+Nov/05/2018 01:08:05 (vty0)[192.168.111.3] show environment 
+Nov/05/2018 01:08:05 (vty0)[192.168.111.3] show system module brief 
+Nov/05/2018 01:08:06 (vty0)[192.168.111.3] show system mpu 
+Nov/05/2018 01:08:09 (vty0)[192.168.111.3] show system power 
+Nov/05/2018 01:08:10 (vty0)[192.168.111.3] show ham mpu 
+Nov/05/2018 01:08:11 (vty0)[192.168.111.3] show logging buffer 
+Nov/05/2018 01:08:17 (vty1)[192.168.111.3] enable 
+Nov/05/2018 01:08:18 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:19 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:19 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:21 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:22 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:22 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:23 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:24 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:24 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:25 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:27 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:31 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:31 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:32 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:32 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:32 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:35 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:36 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:36 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:09:51 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:09:51 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:09:52 (vty0)[192.168.111.3] more off 
+Nov/05/2018 01:09:53 (vty0)[192.168.111.3] show version detail 
+Nov/05/2018 01:09:54 (vty0)[192.168.111.3] show running-config 
+Nov/05/2018 01:09:55 (vty0)[192.168.111.3] show history 
+Nov/05/2018 01:09:58 (vty0)[192.168.111.3] show clock 
+Nov/05/2018 01:09:58 (vty0)[192.168.111.3] show environment 
+Nov/05/2018 01:09:58 (vty0)[192.168.111.3] show system module brief 
+Nov/05/2018 01:09:59 (vty0)[192.168.111.3] show system mpu 
+Nov/05/2018 01:10:02 (vty0)[192.168.111.3] show system power 
+Nov/05/2018 01:10:03 (vty0)[192.168.111.3] show ham mpu 
+Nov/05/2018 01:10:04 (vty0)[192.168.111.3] show logging buffer 
+Nov/05/2018 01:10:42 (vty1)[192.168.111.3] enable 
+Nov/05/2018 01:10:43 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:44 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:44 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:45 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:45 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:45 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:46 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:46 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:47 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:12:55 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:12:56 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:12:57 (vty0)[192.168.111.3] more off 
+Nov/05/2018 01:12:58 (vty0)[192.168.111.3] show version detail 
+Nov/05/2018 01:12:59 (vty0)[192.168.111.3] show running-config 
+Nov/05/2018 01:13:00 (vty0)[192.168.111.3] show history 
+Nov/05/2018 01:13:03 (vty0)[192.168.111.3] show clock 
+Nov/05/2018 01:13:03 (vty0)[192.168.111.3] show environment 
+Nov/05/2018 01:13:03 (vty0)[192.168.111.3] show system module brief 
+Nov/05/2018 01:13:04 (vty0)[192.168.111.3] show system mpu 
+Nov/05/2018 01:13:07 (vty0)[192.168.111.3] show system power 
+Nov/05/2018 01:13:08 (vty0)[192.168.111.3] show ham mpu 
+Nov/05/2018 01:13:09 (vty0)[192.168.111.3] show logging buffer 
+Nov/05/2018 01:13:10 (vty1)[192.168.111.3] enable 
+Nov/05/2018 01:13:10 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:12 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:12 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:13 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:14 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:15 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:16 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:17 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:18 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:19 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:19 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:22 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:25 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:31 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:32 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:33 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:35 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:36 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:52 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:52 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:53 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:53 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:54 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:54 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:03 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:03 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:04 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:04 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:04 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:05 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:36 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:14:36 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:14:37 (vty0)[192.168.111.3] more off 
+Nov/05/2018 01:14:38 (vty0)[192.168.111.3] show version detail 
+Nov/05/2018 01:14:39 (vty0)[192.168.111.3] show running-config 
+Nov/05/2018 01:14:40 (vty0)[192.168.111.3] show history 
+Nov/05/2018 01:14:44 (vty0)[192.168.111.3] show clock 
+Nov/05/2018 01:14:44 (vty0)[192.168.111.3] show environment 
+Nov/05/2018 01:14:44 (vty0)[192.168.111.3] show system module brief 
+Nov/05/2018 01:14:44 (vty0)[192.168.111.3] show system mpu 
+Nov/05/2018 01:14:47 (vty0)[192.168.111.3] show system power 
+Nov/05/2018 01:14:48 (vty0)[192.168.111.3] show ham mpu 
+Nov/05/2018 01:14:49 (vty0)[192.168.111.3] show logging buffer 
+Nov/05/2018 01:14:52 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:53 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:55 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:55 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:56 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:56 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:57 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:57 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:00 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:00 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:00 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:01 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:01 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:01 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:02 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:05 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:05 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:06 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:06 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:06 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:07 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:07 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:08 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:08 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:18 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:19 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:21 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:22 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:22 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:23 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:23 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:24 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:25 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:27 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:31 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:31 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:32 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:33 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:33 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:16:10 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:16:10 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:16:11 (vty0)[192.168.111.3] more off 
+Nov/05/2018 01:16:12 (vty0)[192.168.111.3] show version detail 
+Nov/05/2018 01:16:13 (vty0)[192.168.111.3] show running-config 
+Nov/05/2018 01:16:14 (vty0)[192.168.111.3] show history 
+
+Shell command history in flash file system:
+
+
+Nov/05/2018 01:08:05 (vty0)[192.168.111.3] show clock 
+Nov/05/2018 01:08:05 (vty0)[192.168.111.3] show environment 
+Nov/05/2018 01:08:05 (vty0)[192.168.111.3] show system module brief 
+Nov/05/2018 01:08:06 (vty0)[192.168.111.3] show system mpu 
+Nov/05/2018 01:08:09 (vty0)[192.168.111.3] show system power 
+Nov/05/2018 01:08:10 (vty0)[192.168.111.3] show ham mpu 
+Nov/05/2018 01:08:11 (vty0)[192.168.111.3] show logging buffer 
+Nov/05/2018 01:08:17 (vty1)[192.168.111.3] enable 
+Nov/05/2018 01:08:18 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:19 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:19 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:21 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:22 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:22 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:23 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:24 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:24 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:25 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:27 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:31 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:31 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:32 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:32 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:32 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:35 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:36 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:08:36 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:09:51 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:09:51 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:09:52 (vty0)[192.168.111.3] more off 
+Nov/05/2018 01:09:53 (vty0)[192.168.111.3] show version detail 
+Nov/05/2018 01:09:54 (vty0)[192.168.111.3] show running-config 
+Nov/05/2018 01:09:55 (vty0)[192.168.111.3] show history 
+Nov/05/2018 01:09:58 (vty0)[192.168.111.3] show clock 
+Nov/05/2018 01:09:58 (vty0)[192.168.111.3] show environment 
+Nov/05/2018 01:09:58 (vty0)[192.168.111.3] show system module brief 
+Nov/05/2018 01:09:59 (vty0)[192.168.111.3] show system mpu 
+Nov/05/2018 01:10:02 (vty0)[192.168.111.3] show system power 
+Nov/05/2018 01:10:03 (vty0)[192.168.111.3] show ham mpu 
+Nov/05/2018 01:10:04 (vty0)[192.168.111.3] show logging buffer 
+Nov/05/2018 01:10:42 (vty1)[192.168.111.3] enable 
+Nov/05/2018 01:10:43 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:44 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:44 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:45 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:45 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:45 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:46 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:46 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:10:47 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:12:55 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:12:56 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:12:57 (vty0)[192.168.111.3] more off 
+Nov/05/2018 01:12:58 (vty0)[192.168.111.3] show version detail 
+Nov/05/2018 01:12:59 (vty0)[192.168.111.3] show running-config 
+Nov/05/2018 01:13:00 (vty0)[192.168.111.3] show history 
+Nov/05/2018 01:13:03 (vty0)[192.168.111.3] show clock 
+Nov/05/2018 01:13:03 (vty0)[192.168.111.3] show environment 
+Nov/05/2018 01:13:03 (vty0)[192.168.111.3] show system module brief 
+Nov/05/2018 01:13:04 (vty0)[192.168.111.3] show system mpu 
+Nov/05/2018 01:13:07 (vty0)[192.168.111.3] show system power 
+Nov/05/2018 01:13:08 (vty0)[192.168.111.3] show ham mpu 
+Nov/05/2018 01:13:09 (vty0)[192.168.111.3] show logging buffer 
+Nov/05/2018 01:13:10 (vty1)[192.168.111.3] enable 
+Nov/05/2018 01:13:10 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:12 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:12 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:13 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:14 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:15 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:16 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:17 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:18 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:19 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:19 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:22 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:25 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:31 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:32 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:33 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:35 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:36 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:52 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:52 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:53 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:53 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:54 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:13:54 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:03 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:03 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:04 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:04 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:04 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:05 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:36 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:14:36 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:14:37 (vty0)[192.168.111.3] more off 
+Nov/05/2018 01:14:38 (vty0)[192.168.111.3] show version detail 
+Nov/05/2018 01:14:39 (vty0)[192.168.111.3] show running-config 
+Nov/05/2018 01:14:40 (vty0)[192.168.111.3] show history 
+Nov/05/2018 01:14:44 (vty0)[192.168.111.3] show clock 
+Nov/05/2018 01:14:44 (vty0)[192.168.111.3] show environment 
+Nov/05/2018 01:14:44 (vty0)[192.168.111.3] show system module brief 
+Nov/05/2018 01:14:44 (vty0)[192.168.111.3] show system mpu 
+Nov/05/2018 01:14:47 (vty0)[192.168.111.3] show system power 
+Nov/05/2018 01:14:48 (vty0)[192.168.111.3] show ham mpu 
+Nov/05/2018 01:14:49 (vty0)[192.168.111.3] show logging buffer 
+Nov/05/2018 01:14:52 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:53 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:55 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:55 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:56 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:56 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:57 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:14:57 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:00 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:00 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:00 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:01 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:01 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:01 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:02 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:05 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:05 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:06 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:06 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:06 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:07 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:07 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:08 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:08 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:18 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:19 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:20 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:21 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:22 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:22 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:23 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:23 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:24 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:25 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:26 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:27 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:28 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:29 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:30 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:31 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:31 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:32 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:33 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:15:33 (vty1)[192.168.111.3] who 
+Nov/05/2018 01:16:10 (vty0)[192.168.111.3] enable 
+Nov/05/2018 01:16:10 (vty0)[192.168.111.3] show version 
+Nov/05/2018 01:16:11 (vty0)[192.168.111.3] more off 
+Nov/05/2018 01:16:12 (vty0)[192.168.111.3] show version detail 
+Nov/05/2018 01:16:13 (vty0)[192.168.111.3] show running-config 
+Nov/05/2018 01:16:14 (vty0)[192.168.111.3] show history 
+router#show clock 
+
+UTC Mon Nov 05 01:16:18 2018
+
+router#show environment 
+	Mpu CPU temperature is 54°C
+	Mpu inlet air temperature is 46°C
+router#show system module brief 
+
+module information display:
+
+ Module           Online    State        Name                SN
+--------------------------------------------------------------------------------
+ Mpu 0            online    Start Ok     MP1800X-40(V1)      C132172382700013
+ Power 1          online    Normal       /                   /
+router#show system mpu 
+ System Card Information(Mpu 0 - ONLINE)
+ ----------------------------------------------------------------
+                    Type:   MP1800X-40(V1)[0x10431389]
+                  Status:   Start Ok
+           Card-Port-Num:   0
+        Card-SubSlot-Num:   2
+              Serial No.:   C132172382700013
+               Card-Name:   MP1800X-40(V1) 
+             Description:    
+    Hardware-Information:
+                        PCB-Version: 2
+    Software-Information:
+                 Bootloader-Version: 1.46
+                   Software-Version: 7.3.1.40(R)(integrity)
+ CPU-On-Card-Information:   <1 CPUs>
+                       CPU-Idx:  00
+                        Status:  0000
+                      Core-Num:  0002
+                    Core-State:
+                        Core-Idx-00
+                        Core-Status:  0000
+                   Core-Utilization:  20%
+                        Core-Idx-01
+                        Core-Status:  0000
+                   Core-Utilization:  100%
+             Temperature-State:
+                        Temperature = 54°C
+ MEM-On-Card-Information:   <1 MEMs>
+                       MEM-Idx:  00
+                     MEM-State:
+                          BytesFree =  271884704 bytes
+                         BytesAlloc =  241634912 bytes
+                         BlocksFree =         22 blocks
+                        BlocksAlloc =       6847 blocks
+                   MaxBlockSizeFree =   73400320 bytes
+DISK-On-Card-Information:   <1 DISKs>
+                      DISK-Idx:  00
+                          Type:  Flash
+                        Status:  Online
+                    Last-Alarm:  0000
+                    DISK-State:
+                          SizeTotal =   99876864 bytes
+                           SizeFree =   49373184 bytes
+ ----------------------------------------------------------------
+ STATISTICS:         1 IN, 0 OUT, 0 IERR, 0 OERR
+
+
+ System Card Information(Mpu 0/1 - ONLINE)
+ ----------------------------------------------------------------
+                    Type:   5GE[0x10131605]
+                  Status:   Start Ok
+           Card-Port-Num:   5
+ ----------------------------------------------------------------
+ STATISTICS:         1 IN, 0 OUT, 0 IERR, 0 OERR
+
+
+ System Card Information(Mpu 0/2 - ONLINE)
+ ----------------------------------------------------------------
+                    Type:   4G[0x101f3100]
+                  Status:   Start Ok
+           Card-Port-Num:   0
+ ----------------------------------------------------------------
+ STATISTICS:         1 IN, 0 OUT, 0 IERR, 0 OERR
+
+
+router#show system lpu 
+% Unknown command
+router#show system fan 
+% Unknown command
+router#show system power 
+ System Power Information(Power 1 - ONLINE)
+ ----------------------------------------------------------------
+                  Status:   Normal
+             Description:    
+ ----------------------------------------------------------------
+ STATISTICS:         1 IN, 0 OUT, 0 IERR, 0 OERR
+
+
+router#show ham mpu 
+	Local mpu mode  is MPU_MODE_MASTER
+	Peer  mpu mode  is MPU_MODE_INIT
+	Local ham state is HAM_STATE_M_NOSLAVE
+router#show logging buffer 
+SysLog function : enabled
+Console logging : level debugging(7)
+Monitor logging : level debugging(7)
+Trap logging    : enable
+Flash logging   : level notifications(5), max size 256000
+Buffer logging  : level notifications(5), max size 822784
+Syslog server   : disabled
+
+The Context of logging buffer:
+
+Prepare logging,complete(0%)Prepare logging,complete(2%)Prepare logging,complete(5%)Prepare logging,complete(8%)Prepare logging,complete(11%)Prepare logging,complete(14%)Prepare logging,complete(17%)Prepare logging,complete(20%)Prepare logging,complete(23%)Prepare logging,complete(26%)Prepare logging,complete(29%)Prepare logging,complete(31%)Prepare logging,complete(34%)Prepare logging,complete(37%)Prepare logging,complete(40%)Prepare logging,complete(43%)Prepare logging,complete(46%)Prepare logging,complete(49%)Prepare logging,complete(52%)Prepare logging,complete(55%)Prepare logging,complete(58%)Prepare logging,complete(60%)Prepare logging,complete(63%)Prepare logging,complete(66%)Prepare logging,complete(69%)Prepare logging,complete(72%)Prepare logging,complete(75%)Prepare logging,complete(78%)Prepare logging,complete(81%)Prepare logging,complete(84%)Prepare logging,complete(87%)Prepare logging,complete(89%)Prepare logging,complete(92%)Prepare logging,complete(95%)Prepare logging,complete(98%)Prepare logging,complete(100%)            
+
+[0m[1;37mOct 10 2018 09:03:50: %SYS-CONFIG_OUT-5: Configured from console by user  on console ()[0m
+[0m[1;36mOct 10 2018 09:04:03: %SMS-RevMode-4: Slot 0 Subslot 2 SMS RevMode is OFF.[0m
+[0m[1;37mOct 10 2018 09:04:09: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:04:09: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:04:09: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 172.22.78.144, mask 255.255.255.224.[0m
+[0m[1;36mOct 10 2018 09:04:09: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 09:04:26: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 09:04:26: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;36mOct 10 2018 09:04:44: %CELLULAR-SIGNAL-4: fastcellular1 LTE-FDD, Rssi is -81dBm (-113dBm ~ -51dBm), Indicate is 16.[0m
+[0m[1;37mOct 10 2018 09:04:49: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:04:49: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:04:49: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.128.145.211, mask 255.255.255.248.[0m
+[0m[1;36mOct 10 2018 09:04:50: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;37mOct 10 2018 09:05:22: %SYS-CONFIG_IN-5: Enter configuration commands, one per line.  End with CNTL+Z.[0m
+[0m[1;33mOct 10 2018 09:05:27: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 09:05:27: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 09:05:28: %SYS-CONFIG_OUT-5: Configured from console by user  on console ()[0m
+[0m[1;37mOct 10 2018 09:10:12: %SYS-CONFIG_IN-5: Enter configuration commands, one per line.  End with CNTL+Z.[0m
+[0m[1;37mOct 10 2018 09:10:16: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:10:16: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:10:16: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.128.145.211, mask 255.255.255.248.[0m
+[0m[1;37mOct 10 2018 09:10:22: %SYS-CONFIG_OUT-5: Configured from console by user  on console ()[0m
+[0m[1;33mOct 10 2018 09:10:29: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 09:10:29: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 09:10:39: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:10:39: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:10:39: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.128.145.211, mask 255.255.255.248.[0m
+[0m[1;33mOct 10 2018 09:10:51: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 09:10:51: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 09:11:02: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:11:02: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:11:02: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.128.145.211, mask 255.255.255.248.[0m
+[0m[1;33mOct 10 2018 09:11:15: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 09:11:15: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 09:11:25: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:11:25: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:11:25: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.128.145.211, mask 255.255.255.248.[0m
+[0m[1;33mOct 10 2018 09:11:38: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 09:11:38: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 09:11:48: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:11:48: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:11:48: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.128.145.211, mask 255.255.255.248.[0m
+[0m[1;33mOct 10 2018 09:12:00: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 09:12:00: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;36mOct 10 2018 09:12:08: %MODEMCARD-DRV-4: [tNdisDdr]Modem in fastcellular1 will be hard reset to handle communication fault or deal with soft reset failure ![0m
+[0m[1;36mOct 10 2018 09:12:11: %MODEMCARD-DRV-4: Now unband modem with fastcellular1![0m
+[0m[1;36mOct 10 2018 09:12:34: %MODEMCARD-DRV-4: Now band modem with fastcellular1![0m
+[0m[1;36mOct 10 2018 09:13:07: %CELLULAR-SIGNAL-4: fastcellular1 LTE-FDD, Rssi is -87dBm (-113dBm ~ -51dBm), Indicate is 13.[0m
+[0m[1;37mOct 10 2018 09:13:11: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:13:11: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:13:11: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.130.248.47, mask 255.255.255.224.[0m
+[0m[1;36mOct 10 2018 09:13:11: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;37mOct 10 2018 09:16:08: %SYS-LOGOUT_OK-5: (tty0) is closed by client or timer () OK[0m
+[0m[1;33mOct 10 2018 09:42:52: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 09:42:52: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 09:43:15: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:43:15: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 09:43:15: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 100.105.194.233, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 09:43:15: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 10:12:57: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 10:12:57: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 10:13:19: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 10:13:19: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 10:13:19: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.213.55.143, mask 255.255.255.224.[0m
+[0m[1;36mOct 10 2018 10:13:20: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 10:43:00: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 10:43:00: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 10:43:22: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 10:43:22: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 10:43:22: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.150.108.45, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 10:43:23: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 11:13:09: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 11:13:09: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 11:13:31: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 11:13:31: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 11:13:31: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.184.59.149, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 11:13:32: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 11:43:15: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 11:43:15: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 11:43:37: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 11:43:37: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 11:43:37: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.88.58.251, mask 255.255.255.248.[0m
+[0m[1;36mOct 10 2018 11:43:38: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 12:13:20: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 12:13:20: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 12:13:42: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 12:13:42: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 12:13:42: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.127.156.1, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 12:13:43: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 12:43:20: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 12:43:20: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 12:43:44: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 12:43:44: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 12:43:44: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.142.59.142, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 12:43:44: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 13:13:26: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 13:13:26: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 13:13:48: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 13:13:48: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 13:13:48: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.111.87.33, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 13:13:49: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 13:43:28: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 13:43:28: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 13:43:50: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 13:43:50: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 13:43:50: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.43.211.73, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 13:43:51: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 14:13:31: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 14:13:31: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 14:13:54: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 14:13:54: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 14:13:54: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.182.96.223, mask 255.255.255.192.[0m
+[0m[1;36mOct 10 2018 14:13:54: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 14:43:33: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 14:43:33: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 14:43:55: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 14:43:55: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 14:43:55: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.203.187.101, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 14:43:56: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 15:13:40: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 15:13:40: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 15:14:05: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 15:14:05: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 15:14:05: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.157.74.155, mask 255.255.255.248.[0m
+[0m[1;36mOct 10 2018 15:14:06: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 15:43:43: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 15:43:43: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 15:44:05: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 15:44:05: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 15:44:05: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.151.145.57, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 15:44:06: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 16:13:44: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 16:13:44: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 16:14:07: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 16:14:07: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 16:14:07: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.59.129.103, mask 255.255.255.240.[0m
+[0m[1;36mOct 10 2018 16:14:07: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 16:43:48: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 16:43:48: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 16:44:12: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 16:44:12: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 16:44:12: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.128.53.37, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 16:44:13: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 17:13:50: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 17:13:50: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 17:14:14: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 17:14:14: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 17:14:14: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.170.94.181, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 17:14:15: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 17:43:59: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 17:43:59: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 17:44:21: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 17:44:21: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 17:44:21: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.219.66.157, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 17:44:21: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 18:14:01: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 18:14:01: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 18:14:27: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 18:14:27: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 18:14:27: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 100.90.201.159, mask 255.255.255.192.[0m
+[0m[1;36mOct 10 2018 18:14:27: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 18:44:06: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 18:44:06: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 18:44:29: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 18:44:29: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 18:44:29: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.127.206.85, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 18:44:30: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 19:14:16: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 19:14:16: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 19:14:38: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 19:14:38: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 19:14:38: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 100.126.61.64, mask 255.255.255.128.[0m
+[0m[1;36mOct 10 2018 19:14:39: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 19:44:21: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 19:44:21: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 19:44:44: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 19:44:44: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 19:44:44: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 100.84.5.230, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 19:44:45: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 20:14:20: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 20:14:20: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 20:14:44: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 20:14:44: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 20:14:44: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.226.19.82, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 20:14:44: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 20:44:30: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 20:44:30: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 20:44:52: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 20:44:52: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 20:44:52: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.79.58.46, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 20:44:52: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 21:14:31: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 21:14:31: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 21:14:55: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 21:14:55: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 21:14:55: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.148.99.109, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 21:14:55: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 21:44:34: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 21:44:34: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 21:44:58: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 21:44:58: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 21:44:58: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.72.141.44, mask 255.255.255.248.[0m
+[0m[1;36mOct 10 2018 21:44:59: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 22:14:34: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 22:14:34: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 22:14:57: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 22:14:57: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 22:14:57: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 100.123.65.134, mask 255.255.255.252.[0m
+[0m[1;36mOct 10 2018 22:14:58: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 22:44:37: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 22:44:37: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 22:45:00: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 22:45:00: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 22:45:00: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 10.89.51.223, mask 255.255.255.192.[0m
+[0m[1;36mOct 10 2018 22:45:00: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 23:14:40: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 23:14:40: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 23:15:03: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 23:15:03: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 23:15:03: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 100.88.180.64, mask 255.255.255.128.[0m
+[0m[1;36mOct 10 2018 23:15:04: DIAL-NOTIFY: fastcellular1 dialer success on main dialer list.[0m
+[0m[1;33mOct 10 2018 23:44:48: %LINK-INTERFACE_DOWN-3: Interface fastcellular1, changed state to down.[0m
+[0m[1;33mOct 10 2018 23:44:48: %LINK-LINEPROTO_DOWN-3: Line protocol on interface fastcellular1, changed state to down.[0m
+[0m[1;37mOct 10 2018 23:45:11: %LINK-INTERFACE_UP-5: Interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 23:45:11: %LINK-LINEPROTO_UP-5: Line protocol on interface fastcellular1, changed state to up.[0m
+[0m[1;37mOct 10 2018 23:45:11: %DHCPC-ASSIGNED_EXT-5: Interface fastcellular1 assigned DHCP address 100.77.248
