@@ -116,4 +116,5 @@ dmypy.json
 
 
 #006007 add
-.venv
+.venv/
+*.db
