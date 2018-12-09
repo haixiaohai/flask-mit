@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block page_content %}
+
+<div id="div-index2">
+    <div id="div-index-left">
+        <a href="{{ url_for('single') }}"><img src="{{ url_for('static',filename='img/single.png') }}" id="img"></a></br>
+        <a href="{{ url_for('single') }}"><button>单次巡检服务</button></a>
+    </div>
+    <div id="div-index-right">
+        <a href="{{ url_for('batch') }}"><img src="{{ url_for('static',filename='img/batch.png') }}"></a></br>
+        <a href="{{ url_for('batch') }}"><button>批量巡检服务</button></a>
+    </div>
+</div>
+<div id="div-index2">
+    <div id="div-index-left">
+        <a href="{{ url_for('config') }}"><img src="{{ url_for('static',filename='img/config.png') }}"></a></br>
+        <a href="{{ url_for('config') }}"><button>配置检查</button></a>
+    </div>
+    <div id="div-index-right">
+        <a href="{{ url_for('new') }}"><img src="{{ url_for('static',filename='img/4.png') }}"></a></br>
+        <a href="{{ url_for('new') }}"><button>new function</button></a>
+    </div>
+</div>
+<div id="footer">
+    迈普通信技术股份有限公司
+</div>
+
+{% endblock page_content %}

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block page_content %}
+<div style="padding-top:15%;padding-left:39%">
+    <form action="" method="POST">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.username.label }}<br />
+            {{ form.username(size=32)}}
+            {% for error in form.username.errors %}
+            <span>{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.password.label }}<br />
+            {{ form.password(size=32) }}<br />
+            {% for error in form.password.errors %}
+            <span>{{ error }}</span>
+            {% endfor %}
+        </p>
+        <p>
+            {{ form.repeat_password.label }}<br />
+            {{ form.repeat_password(size=32) }}<br />
+            {% for error in form.repeat_password.errors %}
+            <span style="color:red">{{ error }}</span>
+            {% endfor %}
+        </p>
+        <br />
+        {{ form.submit() }}
+    </form>
+</div>
+{% endblock page_content %}

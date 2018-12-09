@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block page_content %}
+<!--
+<div style="margin:0 auto;padding-top:15%;padding-left:38%">
+    <form action="" method="POST">
+        <table >
+            <tr>
+                <td><span style="color:red">* </span>{{ form.ipaddress.label }}</td> 
+                <td>{{ form.ipaddress(size=20) }}</td>
+            </tr>
+            <tr>
+                <td><span style="color:red">* </span>{{ form.device_model.label }}</td>
+                <td>{{ form.device_model()}}</td>
+            </tr>
+            <tr>
+                <td><span style="color:red">* </span>{{ form.login_type.label }}</td>
+                <td>{{ form.login_type(width=200) }}</td>
+            </tr>
+            <tr>
+                <td>{{ form.username.label }}</td>
+                <td>{{ form.username(sieze=20) }}</td>
+            </tr>
+            <tr>
+                <td>{{ form.password.label }}</td>
+                <td>{{ form.password(size=20) }}</td>
+            </tr>
+            <tr>
+                <td>{{ form.enable_password.label }}</td>
+                <td>{{ form.enable_password(size=20) }}</td>
+
+            </tr>
+        </table>
+        <p>{{ form.submit() }}</p>
+    </form>
+</div>
+-->
+{{ wtf.quick_form(form) }}
+{% endblock page_content %}

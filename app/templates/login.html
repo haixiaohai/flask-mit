@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+{% block page_content %}
+    <div class="container">
+        <div class="card card-container">
+            <img id="profile-img" class="profile-img-card" src="{{ url_for('static',filename='img/mpicon.png') }}" style="width:350px;">
+            <p id="profile-name" class="profile-name-card"></p>
+            <form action="" method="POST" class="form-signin">
+                {{ form.hidden_tag() }}
+                <span id="reauth-email" class="reauth-email"></span>
+                <div class="form-group">
+                    {{ form.username(size=20,class='form-control',placeholder='Username',type='username',autofocus='autofocus') }}
+                </div>
+                <div class="form-group">
+                    {{ form.password(size=20,class='form-control',placeholder='Password',type='password') }}
+                </div>
+                <div class="form-group">
+                    {{ form.submit(class='btn btn-primary btn-lg btn-block btn-signin') }}
+                </div>
+            </form> 
+            <a href="" class="forgot-password">Forgot the password?</a>
+        </div>
+    </div>
+{% endblock page_content %}
