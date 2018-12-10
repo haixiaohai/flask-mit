@@ -118,3 +118,7 @@ dmypy.json
 #006007 add
 .venv/
 *.db
+Logs/
+.vscode/
+__pycache__/
+migrations/
