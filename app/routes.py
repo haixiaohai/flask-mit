@@ -58,7 +58,6 @@ def login():
         redirect(url_for('index'))
     loginform = LoginForm()
     if loginform.validate_on_submit():
-        print(loginform.username.data)
         user = User.query.filter_by(username=loginform.username.data).first()
         if user is None:
             flash('username is not exists,please register.')
