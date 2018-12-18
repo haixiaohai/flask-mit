@@ -29,8 +29,8 @@ class RegisterForm(FlaskForm):
 class SingleForm(FlaskForm):
     ipaddress = StringField('IP address',
                             validators=[DataRequired(), IPAddress()])
-    device_model = SelectField('设备型号', validators=[Required()], coerce=str)
-    login_type = SelectField('登陆方式',
+    device_model = SelectField(u'设备型号', validators=[Required()], coerce=str)
+    login_type = SelectField(u'登陆方式',
                              validators=[Required('Select login type')],
                              choices=[('telnet', 'Telnet'), ('ssh', 'SSH')],
                              coerce=str)
@@ -38,8 +38,9 @@ class SingleForm(FlaskForm):
     password = PasswordField('Password')
     enable_password = PasswordField(
         'Enalbe Password', validators=[DataRequired()])
-    submit = SubmitField('普通巡检')
-    submit2 = SubmitField('深度巡检')
+    submit = SubmitField(u'普通巡检')
+    submit2 = SubmitField(u'深度巡检')
+    submit3 = SubmitField(u'智能巡检')
 
     def __init__(self, *args, **kwargs):
         super(SingleForm, self).__init__(*args, **kwargs)

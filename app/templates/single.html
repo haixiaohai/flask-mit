@@ -1,39 +1,47 @@
 {% extends "base.html" %}
 {% import 'bootstrap/wtf.html' as wtf %}
 {% block page_content %}
-<!--
-<div style="margin:0 auto;padding-top:15%;padding-left:38%">
-    <form action="" method="POST">
-        <table >
-            <tr>
-                <td><span style="color:red">* </span>{{ form.ipaddress.label }}</td> 
-                <td>{{ form.ipaddress(size=20) }}</td>
-            </tr>
-            <tr>
-                <td><span style="color:red">* </span>{{ form.device_model.label }}</td>
-                <td>{{ form.device_model()}}</td>
-            </tr>
-            <tr>
-                <td><span style="color:red">* </span>{{ form.login_type.label }}</td>
-                <td>{{ form.login_type(width=200) }}</td>
-            </tr>
-            <tr>
-                <td>{{ form.username.label }}</td>
-                <td>{{ form.username(sieze=20) }}</td>
-            </tr>
-            <tr>
-                <td>{{ form.password.label }}</td>
-                <td>{{ form.password(size=20) }}</td>
-            </tr>
-            <tr>
-                <td>{{ form.enable_password.label }}</td>
-                <td>{{ form.enable_password(size=20) }}</td>
-
-            </tr>
-        </table>
-        <p>{{ form.submit() }}</p>
-    </form>
-</div>
--->
-{{ wtf.quick_form(form) }}
+    <div class="container" style="border:1px solid red;">
+        <form action="" method="POST" class="form-horizontal">
+            <div class="form-group">
+                {{ form.ipaddress.label(class='col-sm-5 control-label') }}
+                <div class="col-sm-3">
+                    {{ form.ipaddress(class='form-control',placeholder='IP address') }}
+                </div>
+            </div>
+            <div class="form-group">
+                {{ form.device_model.label(class='col-sm-5 control-label') }}
+                <div class="col-sm-3">
+                    {{ form.device_model(class='form-control') }}
+                </div>
+            </div>
+            <div class="form-group">
+                {{ form.login_type.label(class='col-sm-5 control-label') }}
+                <div class="col-sm-3">
+                    {{ form.login_type(class='form-control') }}
+                </div>
+            </div>
+            <div class="form-group">
+                {{ form.username.label(class='col-sm-5 control-label') }}
+                <div class="col-sm-3">
+                    {{ form.username(class='form-control',placeholder='Username') }}
+                </div>
+            </div>
+            <div class="form-group">
+                {{ form.password.label(class='col-sm-5 control-label') }}
+                <div class="col-sm-3">
+                    {{ form.password(class='form-control',placeholder='Password') }}
+                </div>
+            </div>
+            <div class="form-group">
+                {{ form.enable_password.label(class='col-sm-5 control-label') }}
+                <div class="col-sm-3">
+                    {{ form.enable_password(class='form-control',placeholder='Enable Password') }}
+                </div>
+            </div>
+            <div class="form-group">
+                {{ form.submit(class='col-sm-5') }}
+            </div>
+        </form>
+    </div>
 {% endblock page_content %}

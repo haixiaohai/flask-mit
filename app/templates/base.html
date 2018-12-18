@@ -24,7 +24,6 @@
 {% block styles %}
     {{ super() }}
     <link rel="shortcut icon" href="{{ url_for('static',filename='img/m.ico') }}" type="image/x-icon">
-    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstarp.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ url_for('static',filename='css/mycss.css') }}" type="text/css">        
 {% endblock styles %}
 
@@ -91,6 +90,10 @@
         {% endwith %}
     </div>
 {% endblock content %}
+
+<div class="bottominfo">
+    迈普通信技术股份有限公司
+</div>
 
 {% block scripts %}
 {% endblock scripts %}
