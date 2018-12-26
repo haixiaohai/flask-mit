@@ -5,21 +5,21 @@
 
 <div class="container" style="border:1px solid red;">
     <div class="row">
-        <div class="col-lg-6 col-pull-9">
+        <div class="col-lg-4 col-lg-offset-2">
             <a href="{{ url_for('single') }}"><img src="{{ url_for('static',filename='img/single.png') }}" id="img" style="margin:0 auto;"></a></br>
             <a href="{{ url_for('single') }}"><button>单次巡检服务</button></a>
         </div>
-        <div class="col-lg-1">
+        <div class="col-lg-4">
             <a href="{{ url_for('batch') }}"><img src="{{ url_for('static',filename='img/batch.png') }}"></a></br>
             <a href="{{ url_for('batch') }}"><button>批量巡检服务</button></a>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-4 col-lg-offset-2">
             <a href="{{ url_for('config') }}"><img src="{{ url_for('static',filename='img/config.png') }}"></a></br>
             <a href="{{ url_for('config') }}"><button>配置检查</button></a>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-4">
             <a href="{{ url_for('new') }}"><img src="{{ url_for('static',filename='img/4.png') }}"></a></br>
             <a href="{{ url_for('new') }}"><button>new function</button></a>
         </div>
