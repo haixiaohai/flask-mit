@@ -122,4 +122,4 @@ Logs/
 .vscode/
 __pycache__/
 migrations/
-static/
+static/img/
