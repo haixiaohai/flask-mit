@@ -15,7 +15,7 @@ def index():
 
 @webapp.route('/single')
 def single():
-    mainform = SingleForm()
+    form = SingleForm()
     if request.method == 'POST':
         if mainform.login_type.data == 'telnet':
             device = TConnection(host=mainform.ipaddress.data,
@@ -26,7 +26,7 @@ def single():
             device.enable()
             print(device.exec('show version'))
 
-            return redirect(url_for('index'))
+            return redirect(url_for('single'))
         else:
             device = SConnection(host=mainform.ipaddress.data,
                                  password=mainform.password.data,
@@ -35,8 +35,8 @@ def single():
             device._connect()
             print(device.exec('show version'))
 
-            return redirect(url_for('index'))
-    return render_template('single.html', form=mainform)
+            return redirect(url_for('single'))
+    return render_template('single.html', form=form)
 
 
 @webapp.route('/batch')

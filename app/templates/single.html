@@ -1,47 +1,50 @@
 {% extends "base.html" %}
 {% import 'bootstrap/wtf.html' as wtf %}
 {% block page_content %}
-    <div class="container" style="border:1px solid red;">
-        <form action="" method="POST" class="form-horizontal">
-            <div class="form-group">
-                {{ form.ipaddress.label(class='col-sm-5 control-label') }}
-                <div class="col-sm-3">
-                    {{ form.ipaddress(class='form-control',placeholder='IP address') }}
+    <div class="container">
+        <div class="col-lg-offset-3 col-lg-6">
+            <form action="" method="POST" class="form-horizontal">
+                <div class="form-group">
+                    {{ form.ipaddress.label(class='col-xs-4 control-label') }}
+                    <div class="col-xs-5">
+                        {{ form.ipaddress(class='form-control',placeholder='IP address') }}
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                {{ form.device_model.label(class='col-sm-5 control-label') }}
-                <div class="col-sm-3">
-                    {{ form.device_model(class='form-control') }}
+                <div class="form-group">
+                    {{ form.device_model.label(class='col-xs-4 control-label') }}
+                    <div class="col-xs-5">
+                        {{ form.device_model(class='form-control',placeholder='请选择设备型号') }}
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                {{ form.login_type.label(class='col-sm-5 control-label') }}
-                <div class="col-sm-3">
-                    {{ form.login_type(class='form-control') }}
+                <div class="form-group">
+                    {{ form.login_type.label(class='col-xs-4 control-label') }}
+                    <div class="col-sm-5">
+                        {{ form.login_type(class='form-control') }}
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                {{ form.username.label(class='col-sm-5 control-label') }}
-                <div class="col-sm-3">
-                    {{ form.username(class='form-control',placeholder='Username') }}
+                <div class="form-group">
+                    {{ form.username.label(class='col-xs-4 control-label') }}
+                    <div class="col-sm-5">
+                        {{ form.username(class='form-control',placeholder='Username') }}
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                {{ form.password.label(class='col-sm-5 control-label') }}
-                <div class="col-sm-3">
-                    {{ form.password(class='form-control',placeholder='Password') }}
+                <div class="form-group">
+                    {{ form.password.label(class='col-xs-4 control-label') }}
+                    <div class="col-xs-5">
+                        {{ form.password(class='form-control',placeholder='Password') }}
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                {{ form.enable_password.label(class='col-sm-5 control-label') }}
-                <div class="col-sm-3">
-                    {{ form.enable_password(class='form-control',placeholder='Enable Password') }}
+                <div class="form-group">
+                    {{ form.enable_password.label(class='col-xs-4 control-label') }}
+                    <div class="col-xs-5">
+                        {{ form.enable_password(class='form-control',placeholder='Enable Password') }}
+                    </div>
                 </div>
-            </div>
-            <div class="form-group">
-                {{ form.submit(class='col-sm-offset-3') }}
-            </div>
-        </form>
+                <div class="form-group">
+                    {{ form.submit(class='col-xs-offset-3') }}
+                    {{ form.submit2(class='col-xs-offset-1') }}
+                </div>
+            </form>
+        </div>
     </div>
 {% endblock page_content %}
