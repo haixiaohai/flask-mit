@@ -1,6 +1,6 @@
 from flask import render_template, flash, redirect, url_for, request
 from app import webapp, login, db
-from app.forms import LoginForm, RegisterForm, SingleForm
+from app.forms import LoginForm, RegisterForm, SingleForm,SingleForm1,SingleForm2
 from flask_login import current_user, login_user, logout_user, login_required
 from app.models import Command, User
 from werkzeug.urls import url_parse
@@ -14,9 +14,11 @@ def index():
     return render_template('index.html')
 
 
-@webapp.route('/single')
+@webapp.route('/single',methods=['GET','POST'])
 def single():
     form = SingleForm()
+    form1 = SingleForm1()
+    form2 = SingleForm2()
     if request.method == 'POST':
         if form.login_type.data == 'telnet':
             device = TConnection(host=form.ipaddress.data,
@@ -25,7 +27,7 @@ def single():
                                  enable_password=form.enable_password.data)
             device.connect()
             device.enable()
-            print(device.exec('show version'))
+            print(device.exec('show logging'))
 
             return redirect(url_for('single'))
         else:
@@ -34,7 +36,6 @@ def single():
                                  username=form.username.data,
                                  enable_password=form.enable_password.data)
             device._connect()
-            print(device.exec('show version'))
 
             return redirect(url_for('single'))
     return render_template('single.html', form=form)

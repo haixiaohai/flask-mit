@@ -29,7 +29,7 @@ migrate = Migrate(webapp,db)
 
 #loginmanager init
 login = LoginManager(webapp)
-login.login_view = 'login'
+login.login_view = 'sign_in'
 
 #script init
 manager = Manager(webapp)
