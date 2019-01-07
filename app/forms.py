@@ -29,11 +29,14 @@ class RegisterForm(FlaskForm):
 class SingleForm(FlaskForm):
     ipaddress = StringField('IP address',
                             validators=[DataRequired(), IPAddress()])
-    device_model = SelectField(u'设备型号', validators=[Required()], coerce=str)
-    login_type = SelectField(u'登陆方式',
-                             validators=[Required('Select login type')],
+    device_model = SelectField(label=u'设备型号', 
+                               validators=[Required(u'请选择设备型号')], 
+                               coerce=str,
+                               )
+    login_type = SelectField(label=u'登陆方式',
                              choices=[('telnet', 'Telnet'), ('ssh', 'SSH')],
-                             coerce=str)
+                             coerce=str,
+                             validators=[Required(u'请选择登陆方式')])
     username = StringField('Username')
     password = PasswordField('Password')
     enable_password = PasswordField(

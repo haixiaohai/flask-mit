@@ -13,25 +13,26 @@ from app.maipulib import *
 def index():
     return render_template('index.html')
 
+
 @webapp.route('/single')
 def single():
     form = SingleForm()
     if request.method == 'POST':
-        if mainform.login_type.data == 'telnet':
-            device = TConnection(host=mainform.ipaddress.data,
-                                 password=mainform.password.data,
-                                 username=mainform.username.data,
-                                 enable_password=mainform.enable_password.data)
+        if form.login_type.data == 'telnet':
+            device = TConnection(host=form.ipaddress.data,
+                                 password=form.password.data,
+                                 username=form.username.data,
+                                 enable_password=form.enable_password.data)
             device.connect()
             device.enable()
             print(device.exec('show version'))
 
             return redirect(url_for('single'))
         else:
-            device = SConnection(host=mainform.ipaddress.data,
-                                 password=mainform.password.data,
-                                 username=mainform.username.data,
-                                 enable_password=mainform.enable_password.data)
+            device = SConnection(host=form.ipaddress.data,
+                                 password=form.password.data,
+                                 username=form.username.data,
+                                 enable_password=form.enable_password.data)
             device._connect()
             print(device.exec('show version'))
 
@@ -53,7 +54,7 @@ def new():
     return render_template('new.html')
 
 @webapp.route('/login', methods=['GET', 'POST'])
-def login():
+def sign_in():
     if current_user.is_authenticated:
         redirect(url_for('index'))
     loginform = LoginForm()
@@ -90,7 +91,7 @@ def register():
 @webapp.route('/logout')
 def logout():
     logout_user()
-    return redirect(url_for('login'))
+    return redirect(url_for('sign_in'))
 
 
 @webapp.route('/about')

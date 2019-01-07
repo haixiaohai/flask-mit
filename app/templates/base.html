@@ -65,7 +65,7 @@
                     </li>
                     <li>
                         {% if current_user.is_anonymous %}
-                        <a href="{{ url_for('login') }}">登陆</a>
+                        <a href="{{ url_for('sign_in') }}">登陆</a>
                         {% else %}
                         <a href="{{ url_for('logout') }}">退出</a>
                         {% endif %}
@@ -77,7 +77,7 @@
 {% endblock navbar %}
 
 {% block content %}
-    <div style="height:50px;">
+    <div style="height:100px;">
     </div>
     {% block page_content %} {% endblock page_content %}
     <div>

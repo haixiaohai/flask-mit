@@ -4,6 +4,7 @@
     <div class="container">
         <div class="col-lg-offset-3 col-lg-6">
             <form action="" method="POST" class="form-horizontal">
+                {{ form.hidden_tag() }}
                 <div class="form-group">
                     {{ form.ipaddress.label(class='col-xs-4 control-label') }}
                     <div class="col-xs-5">
