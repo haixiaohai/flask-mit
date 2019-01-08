@@ -8,7 +8,10 @@
 </div>
 <div class="container">
     <form class="" action="" method="POST" autocomplete="off">
-
+        {{ form.hidden_tag() }}
+        <div class="form-group">
+            {{ form.ipaddress.label }} {{ form.ipaddress() }}
+        </div>
     </form>
 </div>
 <div class="container">

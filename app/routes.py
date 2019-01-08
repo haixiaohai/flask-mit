@@ -1,6 +1,6 @@
 from flask import render_template, flash, redirect, url_for, request
 from app import webapp, login, db
-from app.forms import LoginForm, RegisterForm, SingleForm,SingleForm1,SingleForm2
+from app.forms import LoginForm, RegisterForm, SingleForm,ConfigForm
 from flask_login import current_user, login_user, logout_user, login_required
 from app.models import User
 from werkzeug.urls import url_parse
@@ -46,7 +46,8 @@ def batch():
 
 @webapp.route('/config')
 def config():
-    return render_template('config.html')
+    form = ConfigForm() 
+    return render_template('config.html',form=form)
 
 @webapp.route('/new')
 def new():

@@ -53,14 +53,16 @@ class SingleForm(FlaskForm):
                                      for device in DeviceType.query.order_by(DeviceType.id).all()]
                                      
 
-class SingleForm1(FlaskForm):
+class ConfigForm(FlaskForm):
     ipaddress = StringField('IP address',
                             validators=[DataRequired(), IPAddress()])
     device_model = SelectField(label=u'设备型号', 
+                               default=u'请选择设备型号',
                                validators=[Required(u'请选择设备型号')], 
                                coerce=str,
                                )
     login_type = SelectField(label=u'登陆方式',
+                             default=[u'请选择登陆方式'],
                              choices=[('telnet', 'Telnet'), ('ssh', 'SSH')],
                              validators=[Required(u'请选择登陆方式')],
                              coerce=str,
@@ -69,33 +71,9 @@ class SingleForm1(FlaskForm):
     password = PasswordField('Password')
     enable_password = PasswordField(
         'Enalbe Password', validators=[DataRequired()])
-    submit = SubmitField(u'深度巡检')
+    submit = SubmitField(u'开始检查')
 
     def __init__(self, *args, **kwargs):
-        super(SingleForm1, self).__init__(*args, **kwargs)
-        self.device_model.choices = [(device.device_model, device.device_model)
-                                     for device in DeviceType.query.order_by(DeviceType.id).all()]
-
-
-class SingleForm2(FlaskForm):
-    ipaddress = StringField('IP address',
-                            validators=[DataRequired(), IPAddress()])
-    device_model = SelectField(label=u'设备型号', 
-                               validators=[Required(u'请选择设备型号')], 
-                               coerce=str,
-                               )
-    login_type = SelectField(label=u'登陆方式',
-                             choices=[('telnet', 'Telnet'), ('ssh', 'SSH')],
-                             validators=[Required(u'请选择登陆方式')],
-                             coerce=str,
-                             )
-    username = StringField('Username')
-    password = PasswordField('Password')
-    enable_password = PasswordField(
-        'Enalbe Password', validators=[DataRequired()])
-    submit = SubmitField(u'智能巡检')
-
-    def __init__(self, *args, **kwargs):
-        super(SingleForm2, self).__init__(*args, **kwargs)
+        super(ConfigForm, self).__init__(*args, **kwargs)
         self.device_model.choices = [(device.device_model, device.device_model)
                                      for device in DeviceType.query.order_by(DeviceType.id).all()]
