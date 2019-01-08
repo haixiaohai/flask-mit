@@ -25,13 +25,29 @@ class User(UserMixin, db.Model):
         return check_password_hash(self.password_hash, password)
 
 
-class Command(db.Model):
-    __tablename__ = 'mit_commands'
+class General_Command(db.Model):
+    __tablename__ = 'mit_general_commands'
     id = db.Column(db.Integer, primary_key=True)
     command = db.Column(db.String(120), index=True)
     exec_mode = db.Column(db.String(120))
     apply_to_device = db.Column(db.String(120))
 
+
+class NSS_Command(db.Model):
+    __tablename__ = 'mit_nss_command'
+    id = db.Column(db.Integer,primary_key=True)
+    command = db.Column(db.String(120), index=True)
+    exec_mode = db.Column(db.String(120))
+    apply_to_device = db.Column(db.String(120))
+
+
+class NSR_Command(db.Model):
+    __tablename__ = 'mit_nsr_command'
+    id = db.Column(db.Integer,primary_key=True)
+    command = db.Column(db.String(120), index=True)
+    exec_mode = db.Column(db.String(120))
+    apply_to_device = db.Column(db.String(120))
+    
 
 class DeviceType(db.Model):
     __tablename__ = 'mit_devicetype'

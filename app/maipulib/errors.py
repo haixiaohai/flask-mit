@@ -34,7 +34,7 @@ class InvalidCommand(MaipuError):
 
 
 class ModelNotSupported(MaipuError):
-    def __init__(self, reason):
+    def __init__(self,value,reason):
         self.value = value
         self.reason = reason
 

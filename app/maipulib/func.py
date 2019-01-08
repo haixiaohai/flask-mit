@@ -37,7 +37,7 @@ class TConnection(MIT):
             self.password = None
 
     def connect(self):
-        '''connect to device telnet and telnetlib'''
+        '''connect to device,telnet and telnetlib'''
         self._connection = telnetlib.Telnet(self.host)
 
         prompt = ['ogin:', 'assword:', '>']

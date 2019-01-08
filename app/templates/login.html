@@ -5,7 +5,7 @@
         <div class="card card-container">
             <img id="profile-img" class="profile-img-card" src="{{ url_for('static',filename='img/m.ico') }}">
             <p id="profile-name" class="profile-name-card"></p>
-            <form action="" method="POST" class="form-signin">
+            <form action="" method="POST" class="form-signin" autocomplete="off">
                 {{ form.hidden_tag() }}
                 <span id="reauth-email" class="reauth-email"></span>
                 <div class="form-group">

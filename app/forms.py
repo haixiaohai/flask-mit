@@ -30,10 +30,12 @@ class SingleForm(FlaskForm):
     ipaddress = StringField('IP address',
                             validators=[DataRequired(), IPAddress()])
     device_model = SelectField(label=u'设备型号', 
+                               default=u'请选择设备型号',
                                validators=[Required(u'请选择设备型号')], 
                                coerce=str,
                                )
     login_type = SelectField(label=u'登陆方式',
+                             default=[u'请选择登陆方式'],
                              choices=[('telnet', 'Telnet'), ('ssh', 'SSH')],
                              validators=[Required(u'请选择登陆方式')],
                              coerce=str,
@@ -43,6 +45,7 @@ class SingleForm(FlaskForm):
     enable_password = PasswordField(
         'Enalbe Password', validators=[DataRequired()])
     submit = SubmitField(u'普通巡检')
+    submit2 = SubmitField(u'深度巡检')
 
     def __init__(self, *args, **kwargs):
         super(SingleForm, self).__init__(*args, **kwargs)
