@@ -1,7 +1,6 @@
 import os
 
 #
-DEBUG = True
 
 #
 CSRF_ENABLED = True    #cross-site request forgery
