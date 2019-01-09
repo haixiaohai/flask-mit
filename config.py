@@ -1,8 +1,6 @@
 import os
 
-#
-
-#
+#CSRF setup
 CSRF_ENABLED = True    #cross-site request forgery
 SECRET_KEY = 'you-will-never-guess'
 
