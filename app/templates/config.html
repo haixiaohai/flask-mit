@@ -11,6 +11,12 @@
         {{ form.hidden_tag() }}
         <div class="form-group">
             {{ form.ipaddress.label }} {{ form.ipaddress() }}
+            {{ form.device_model.label }} {{ form.device_model() }}
+            {{ form.login_type.label }} {{ form.login_type() }}
+            {{ form.username.label }} {{ form.username() }}
+            {{ form.password.label }} {{ form.password() }}
+            {{ form.enable_password.label }} {{ form.enable_password() }}
+            {{ form.submit() }}
         </div>
     </form>
 </div>
@@ -18,7 +24,7 @@
     <div style="color:red;margin: 0 auto;text-align: center;">
         <table class="table table-bordered">
             <tr>
-                <td class=""
+                <td class=""></td>
             </tr>
         </table>
     </div>
