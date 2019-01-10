@@ -20,6 +20,7 @@ from flask_nav.elements import *
 
 #app init
 webapp = Flask(__name__)
+webapp.debug = True
 webapp.config.from_object('config')
 
 
@@ -37,7 +38,5 @@ manager = Manager(webapp)
 #bootstrap init
 bootstrap = Bootstrap(webapp)
 
-
-#nav init
 
 from app import routes

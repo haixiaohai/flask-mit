@@ -1,5 +1,10 @@
 import os
 
+
+#debug setup
+DEBUG = True
+
+
 #CSRF setup
 CSRF_ENABLED = True    #cross-site request forgery
 SECRET_KEY = 'you-will-never-guess'
