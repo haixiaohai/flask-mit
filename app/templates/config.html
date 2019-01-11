@@ -7,19 +7,55 @@
     </div>
 </div>
 <div class="container">
-    <form class="" action="" method="POST" autocomplete="off">
+    <form class="form-inline" action="" method="POST" autocomplete="off">
         {{ form.hidden_tag() }}
-        <div class="form-group">
-            {{ form.ipaddress.label }} {{ form.ipaddress() }}
-            {{ form.device_model.label }} {{ form.device_model() }}
-            {{ form.login_type.label }} {{ form.login_type() }}
-            {{ form.username.label }} {{ form.username() }}
-            {{ form.password.label }} {{ form.password() }}
-            {{ form.enable_password.label }} {{ form.enable_password() }}
-            {{ form.submit() }}
+        <div class="row">
+            <div class="form-group">
+                {{ form.ipaddress.label(class='col-lg-1') }}
+                <div class="col-lg-2">
+                    {{ form.ipaddress(class='form-control',placeholder='IP address') }}
+                </div>
+            </div>
+            <div class="form-group">
+                {{ form.device_model.label(class='col-lg-1 control-label') }}
+                <div class="col-lg-3">
+                    {{ form.device_model(class='form-control',placeholder='请选择设备型号') }}
+                </div>
+            </div>
+            <div class="form-group">
+                {{ form.login_type.label(class='col-lg-1 control-label') }}
+                <div class="col-lg-3">
+                    {{ form.login_type(class='form-control') }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                {{ form.username.label(class='col-lg-1 control-label') }}
+                <div class="col-lg-3">
+                    {{ form.username(class='form-control',placeholder='Username') }}
+                </div>
+            </div>
+            <div class="form-group">
+                {{ form.password.label(class='col-lg-1 control-label') }}
+                <div class="col-lg-3">
+                    {{ form.password(class='form-control',placeholder='Password') }}
+                </div>
+            </div>
+            <div class="form-group">
+                {{ form.enable_password.label(class='col-lg-1 control-label') }}
+                <div class="col-lg-3">
+                    {{ form.enable_password(class='form-control',placeholder='Enable Password') }}
+                </div>
+            </div>
+        </div>
+        <div class="form-group" style="padding-top:40px;">
+            {{ form.submit(class='col-xs-offset-5 btn btn-primary') }}
         </div>
     </form>
 </div>
+
+
 <div class="container">
     <div>
         <table class="table">
