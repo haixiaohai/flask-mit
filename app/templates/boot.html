@@ -1,6 +1,21 @@
 {% extends "base.html" %}
+{% block styles %}
+    {{ super() }}
+    <style type="text/css">
+        .grid_div{
+            border-width: 1px;
+            border-style: solid;
+        }
+        span{
+            color: red;
+        }
+    </style>
+{% endblock styles %}
 {% block page_content %}
-<h1>栅格系统学习</h1>
+<h1 class="page-header">全局CSS</h1>
+<div class="container">
+    <h2>栅格系统学习</h2>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-6">
@@ -17,4 +32,70 @@
         </div>
     </div>    
 </div>
-{% endblock %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-md-12 grid_div"><span class="">col-lg-8 col-md-12</span></div>
+        <div class="col-lg-4 col-md-6 grid_div"><span class="">col-lg-4 col-md-6</span></div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 grid_div"><span class="">col-lg-1 col-md-2 col-sm-3</span></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-md-12 grid_div"><span class="">col-lg-8 col-md-12</span></div>
+        <div class="col-lg-4 col-md-6 grid_div"><span class="">col-lg-4 col-md-6</span></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9 grid_div">lg-9</div>
+        <div class="col-lg-13 grid_div">lg-13</div>
+    </div>
+</div>
+
+<!--列嵌套-->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 grid_div">
+            <div class="col-md-4">col-md-4</div>
+            <div class="col-md-4">col-md-4</div>
+            <div class="col-md-4">col-md-4</div>
+        </div>
+        <div class="col-lg-4 grid_div">col-lg-4</div>
+        <div class="col-lg-4 grid_div">col-lg-4</div>
+    </div>
+</div>
+<!--列排序-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-push-8">col-lg-4</div>
+        <div class="col-md-8 col-md-pull-4">col-lg-8</div>
+    </div>
+</div>
+{% endblock page_content %}
