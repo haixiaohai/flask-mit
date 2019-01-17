@@ -5,9 +5,19 @@
     <script src="{{bootstrap_find_resource('jquery.js', cdn='jquery')}}"></script>
     <script type="text/javascript">
     $(document).ready(function(){
-        $("#test").click(function(){
-            $(this).hide();
+        $("button").click(function(){
+            $("p").hide();
         });
+        /*
+        $("p").hide();
+        $("p.intro").hide();
+        $("p#intro").hien();
+        
+        $('[href]').hide();
+        $("[href='#']").hide();
+        $('[href!="#"]').hide();
+        $('[href=".jpg"]').hide();
+        */
     });
     </script>
 {% endblock %}
@@ -16,7 +26,10 @@
 <h1 class="page-header">jQuery Learn</h1>
 <div class="container">
     <div >
-        <p id="test">if you click on me, i will disappear.</p>
+        <p>if you click on me, i will disappear.</p>
+    </div>
+    <div>
+        <button type="button">Click Me</button>
     </div>
 </div>
 {% endblock %}
