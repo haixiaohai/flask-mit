@@ -20,7 +20,15 @@
     <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-6">
             <h2 class="page-header">title1</h2>
-            <p>海南工行红旗项目场景应用，用户发现网点wlan故障，切换AC后故障依然，网管发现大量isg不在线。用户登录主VPN 75E，发现和网点的vpn隧道还在，但是到网点网络不通。后再发现已经无法远程登录主75E。用户到机房对75E断电，准备切换到备份75E，但是发现备份75E的msu g0口和防火墙之间不通，g1，g2口接其他设备是通的，笔记本电脑直接接g0口也不通。重启后，g0口和防火墙通了。备份75E恢复后，由于防火墙配置修改，找到防火墙配置问题，修改后才恢复全省网络，网络中断接近2小时。后用户再对主75E开机测试，也恢复了正常工作。整个处理过程中，主备两台75E都初步判断有问题，主75E是vpn中断，备份75E是g0口不通。</p>
+            <p>海南工行红旗项目场景应用，用户发现网点wlan故障，
+                切换AC后故障依然，网管发现大量isg不在线。用户登录主VPN 75E，
+                发现和网点的vpn隧道还在，但是到网点网络不通。后再发现已经无法远程登录主75E。
+                用户到机房对75E断电，准备切换到备份75E，但是发现备份75E的ms
+                u g0口和防火墙之间不通，g1，g2口接其他设备是通的，笔记本电脑直接
+                接g0口也不通。重启后，g0口和防火墙通了。备份75E恢复后，由于防火墙配置
+                修改，找到防火墙配置问题，修改后才恢复全省网络，网络中断接近2小时。后
+                用户再对主75E开机测试，也恢复了正常工作。整个处理过程中，主备两台75E都初
+                步判断有问题，主75E是vpn中断，备份75E是g0口不通。</p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6">
             <h2 class="page-header">title2</h2>
@@ -114,5 +122,36 @@
 <div class="container">
     <p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, <mark>nascetur</mark> ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, </p>
     <p class="text-danger">Cum sociis natoque penatibus et magnis dis parturient montes, <del>nascetur</del> ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, </p>
+</div>
+
+
+<h1 class="page-header">JavaScript插件</h1>
+<div class="container">
+    <h2>模态框</h2>
+    <div> <!--模态框-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">静态模态框</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">静态模态框</button>
+    </div>
+    <h2>过度效果</h2>
+
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h2 class="modal-title">Modal Title</h2>
+            </div>
+            <div class="modal-body">
+                <p class="text-info">this is a body text.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Save Changes</button>
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock page_content %}
