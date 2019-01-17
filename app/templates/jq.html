@@ -1,9 +1,22 @@
 {% extends 'base.html' %}
 
-{% block page_content %}
-<h1>jQuery Learn</h1>
-<div class="container">
-    
+{% block head %}
+    {{ super() }}
+    <script src="{{bootstrap_find_resource('jquery.js', cdn='jquery')}}"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("#test").click(function(){
+            $(this).hide();
+        });
+    });
+    </script>
+{% endblock %}
 
+{% block page_content %}
+<h1 class="page-header">jQuery Learn</h1>
+<div class="container">
+    <div >
+        <p id="test">if you click on me, i will disappear.</p>
+    </div>
 </div>
 {% endblock %}
