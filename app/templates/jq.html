@@ -5,8 +5,8 @@
     <script src="{{bootstrap_find_resource('jquery.js', cdn='jquery')}}"></script>
     <script type="text/javascript">
     $(document).ready(function(){
-        $("button").click(function(){
-            $("p").hide();
+        $("button.hiddenn").dblclick(function(){
+            $("p").slideUp(1000);
         });
         /*
         $("p").hide();
@@ -18,18 +18,31 @@
         $('[href!="#"]').hide();
         $('[href=".jpg"]').hide();
         */
+        $("button.show").click(function(){
+            $("p").slideToggle(1000);
+        });
     });
     </script>
+{% endblock %}
+
+{% block styles %}
+    {{ super() }}
+    <style>
+    .panel{
+        height: 100px;
+    }
+    </style>
 {% endblock %}
 
 {% block page_content %}
 <h1 class="page-header">jQuery Learn</h1>
 <div class="container">
     <div >
-        <p>if you click on me, i will disappear.</p>
+        <p class="panel">if you click on me, i will disappear.</p>
     </div>
     <div>
-        <button type="button">Click Me</button>
-    </div>
+        <button type="button" class="hiddenn">Click hidden</button>
+        <button type="button" class="show">Click show</button>
+   </div>
 </div>
 {% endblock %}

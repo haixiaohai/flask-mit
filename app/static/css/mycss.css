@@ -3,24 +3,17 @@ body{
         padding:0;
     }
 
-img{
-    padding:0;
-    height: 300px;
-    width: 398px;
-}
-#div-index-left{
+.div-index-left{
     border:1px solid black;
-    width:400px;
-    position: absolute;
-    top:50px;
-    left:10%;
+    width: 30%;
+    float: left;
 }
-#div-index-right{
+
+.div-index-right{
+    margin-left: 2px;
     border:1px solid black;
-    width:400px;
-    position: absolute;
-    top:50px;
-    right:10%
+    width: 69%;
+    float: left;
 }
 
 #div-index2{
