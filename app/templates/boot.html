@@ -6,9 +6,6 @@
             border-width: 1px;
             border-style: solid;
         }
-        span{
-            color: red;
-        }
     </style>
 {% endblock styles %}
 {% block page_content %}
@@ -130,13 +127,32 @@
     <h2>模态框</h2>
     <div> <!--模态框-->
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">静态模态框</button>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">静态模态框</button>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal-fade">动态模态框</button>
     </div>
     <h2>过度效果</h2>
 
 </div>
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
+<div class="modal" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h2 class="modal-title">Modal Title</h2>
+            </div>
+            <div class="modal-body">
+                <p class="text-info">this is a body text.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" id="myModal-fade" tabindex="1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog fade" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">

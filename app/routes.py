@@ -102,3 +102,8 @@ def about():
 @webapp.route('/test')
 def boot():
     return render_template('boot.html')
+
+
+@webapp.route('/jquery')
+def jquery():
+    return render_template('jq.html')
