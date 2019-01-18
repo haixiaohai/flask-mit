@@ -4,14 +4,15 @@ body{
     }
 
 .div-index-left{
-    
+    height: 460px;
     width: 30%;
     float: left;
     background-color: beige;
 }
 
 .div-index-right{
-    margin-left: 2px;
+    height: 460px;
+    margin-left: 3px;
     width: 69%;
     float: left;
     background-color: bisque;

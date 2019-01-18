@@ -19,7 +19,14 @@
         $('[href=".jpg"]').hide();
         */
         $("button.show").click(function(){
-            $("p").slideToggle(1000);
+            $("div.panel").animate({
+                height:"toggle",
+                width:"toggle"
+            },"slow")
+            .animate({
+                height:"100px",
+                width:"200px"
+            },"slow");
         });
     });
     </script>
@@ -30,6 +37,8 @@
     <style>
     .panel{
         height: 100px;
+        background-color: coral;
+        width:100px;
     }
     </style>
 {% endblock %}
@@ -37,8 +46,8 @@
 {% block page_content %}
 <h1 class="page-header">jQuery Learn</h1>
 <div class="container">
-    <div >
-        <p class="panel">if you click on me, i will disappear.</p>
+    <div style="position:relative;" class="panel">
+        <p>if you click on me, i will disappear.</p>
     </div>
     <div>
         <button type="button" class="hiddenn">Click hidden</button>
