@@ -4,33 +4,18 @@ body{
     }
 
 .div-index-left{
-    border:1px solid black;
+    
     width: 30%;
     float: left;
+    background-color: beige;
 }
 
 .div-index-right{
     margin-left: 2px;
-    border:1px solid black;
     width: 69%;
     float: left;
+    background-color: bisque;
 }
-
-#div-index2{
-    width:70%;
-    height: 500px;;
-    margin: 0 auto;
-    clear:both;
-    position: relative;
-}
-
-#footer{
-    width:1400px;
-    text-align: center;
-    margin:0 auto;
-    clear:both;
-}
-
 
 
 /*   bootsnipp.com/snippets/a3053  copy   */
@@ -38,7 +23,7 @@ body, html {
     height: 100%;
 }
 
-.card-container.card {
+.card-container.card-login {
     max-width: 350px;
     padding: 40px 40px;
 }
@@ -56,6 +41,22 @@ body, html {
  * Card component
  */
 .card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 10px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    height: 500px;
+}
+
+.card-login {
     background-color: #F7F7F7;
     /* just in case there no content*/
     padding: 20px 25px 30px;

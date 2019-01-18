@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% import 'bootstrap/wtf.html' as wtf %}
 {% block page_content %}
-    <div class="container card" style="height:500px;">
+    <div class="container card">
         <div class="col-lg-offset-3 col-lg-6">
             <form action="{{ url_for('single') }}" method="POST" class="form-horizontal" autocomplete="off">
                 {{ form.hidden_tag() }}
